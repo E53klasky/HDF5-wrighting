@@ -1,10 +1,7 @@
-/*
- *  This example writes data to the HDF5 file by rows.
- *  Number of processes is assumed to be 1 or multiples of 2 (up to 8)
- */
-
-#include "hdf5.h"
-#include "stdlib.h"
+#include <mpi.h>
+#include <hdf5.h>
+#include <cstdlib>
+#include <iostream>
 
 #define H5FILE_NAME "SDS_row.h5"
 #define DATASETNAME "IntArray"
@@ -12,8 +9,7 @@
 #define NY          5
 #define RANK        2
 
-int
-main(int argc, char **argv)
+int main(int argc, char **argv)
 {
     /*
      * HDF5 APIs definitions
@@ -42,29 +38,13 @@ main(int argc, char **argv)
     MPI_Comm_size(comm, &mpi_size);
     MPI_Comm_rank(comm, &mpi_rank);
 
+    std::cout << "Number of processes: " << mpi_size << std::endl;
+
     /*
      * Set up file access property list with parallel I/O access
      */
     plist_id = H5Pcreate(H5P_FILE_ACCESS);
     H5Pset_fapl_mpio(plist_id, comm, info);
-
-    /*
-     * OPTIONAL: It is generally recommended to set collective
-     *           metadata reads on FAPL to perform metadata reads
-     *           collectively, which usually allows datasets
-     *           to perform better at scale, although it is not
-     *           strictly necessary.
-     */
-    H5Pset_all_coll_metadata_ops(plist_id, true);
-
-    /*
-     * OPTIONAL: It is generally recommended to set collective
-     *           metadata writes on FAPL to perform metadata writes
-     *           collectively, which usually allows datasets
-     *           to perform better at scale, although it is not
-     *           strictly necessary.
-     */
-    H5Pset_coll_metadata_write(plist_id, true);
 
     /*
      * Create a new file collectively and release property list identifier.
@@ -129,7 +109,7 @@ main(int argc, char **argv)
     H5Fclose(file_id);
 
     if (mpi_rank == 0)
-        printf("PHDF5 example finished with no errors\n");
+        std::cout << "PHDF5 example finished with no errors" << std::endl;
 
     MPI_Finalize();
 
