@@ -31,23 +31,35 @@ int main(int argc , char** argv)
     /*
      * MPI variables
      */
-    int      mpi_size , mpi_rank;
-    MPI_Comm comm = MPI_COMM_WORLD;
-    MPI_Info info = MPI_INFO_NULL;
     int provided;
     MPI_Init_thread(&argc , &argv , MPI_THREAD_MULTIPLE , &provided);
+
+    // Move these after initialization
+    int mpi_size , mpi_rank;
+    MPI_Comm comm = MPI_COMM_WORLD;
+    MPI_Info info = MPI_INFO_NULL;
+
+    MPI_Comm_size(comm , &mpi_size);
+    MPI_Comm_rank(comm , &mpi_rank);
     if (provided < MPI_THREAD_MULTIPLE) {
         std::cerr << "Warning: Insufficient MPI threading support" << std::endl;
     }
     /*
      * Initialize MPI
      */
-    MPI_Comm_size(comm , &mpi_size);
-    MPI_Comm_rank(comm , &mpi_rank);
 
-    std::cout << "Number of processes: " << mpi_size << std::endl;
-    adios2::ADIOS adios;
-    adios2::IO io = adios.DeclareIO("WriteIO");
+    // #if ADIOS2_USE_MPI
+    // std::cout << "Number of processes: " << mpi_size << std::endl;
+    // // maybe it works now???
+    // adios2::ADIOS adios("adios2.xml" , comm);
+    // #else
+    // adios2::ADIOS adios;
+    // #endif
+    // adios2::IO bpIO = adios.DeclareIO("WriteIO");
+    // adios2::Engine bpWriter = bpIO.Open("output" , adios2::Mode::Write);
+    // adios2::Operator op = adios.DefineOperator("mgard" , "mgard");
+
+
     /*
      * Set up file access property list with parallel I/O access
      */
@@ -60,9 +72,9 @@ int main(int argc , char** argv)
     file_id = H5Fcreate(H5FILE_NAME , H5F_ACC_TRUNC , H5P_DEFAULT , plist_id);
     H5Pclose(plist_id);
 
-    /*
-     * Create the dataspace for the dataset.
-     */
+        /*
+         * Create the dataspace for the dataset.
+         */
     dimsf[0] = NX;
     dimsf[1] = NY;
     filespace = H5Screate_simple(RANK , dimsf , NULL);
@@ -116,8 +128,11 @@ int main(int argc , char** argv)
     H5Pclose(plist_id);
     H5Fclose(file_id);
 
+    //bpWriter.Close();
+
     if (mpi_rank == 0)
         std::cout << "PHDF5 example finished with no errors" << std::endl;
+
 
     MPI_Finalize();
 

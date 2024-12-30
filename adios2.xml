@@ -1,9 +1,0 @@
-adios2.xml
-
-<?xml version="1.0"?>
-<adios-config>
-    <io name="WriteIO">
-        <engine type="BP4">
-        </engine>
-    </io>
-</adios-config>

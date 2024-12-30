@@ -1,30 +1,25 @@
-cmake_minimum_required(VERSION 3.10)
-project(PHDF5Example C CXX)
+cmake_minimum_required(VERSION 3.19)
+project(PHDF5Example)
 
 
 find_package(MPI REQUIRED)
 find_package(HDF5 REQUIRED COMPONENTS C)
+find_package(ADIOS2 REQUIRED PATHS /opt/adios2/ NO_DEFAULT_PATH)
+
+
+
+add_definitions(-DOMPI_SKIP_MPICXX -DMPICH_SKIP_MPICXX)
+
+set(CMAKE_CXX_FLAGS  "${CMAKE_CXX_FLAGS} -fno-omit-frame-pointer -Wfatal-errors -Wall -Wextra")
 
 
 add_executable(phdf5_example main.cpp)
-
-
-target_include_directories(phdf5_example PRIVATE 
-    ${MPI_C_INCLUDE_DIRS}
-    ${HDF5_INCLUDE_DIRS}
-)
-
-
+link_directories(/opt/adios2/lib)
 target_link_libraries(phdf5_example 
-    ${MPI_C_LIBRARIES}
-    ${HDF5_LIBRARIES}
-    ${ADIOS2_LIBRARIES}
-    mpi_cxx  
+    adios2_cxx11_mpi    
+    adios2_cxx11        
+    adios2_c_mpi        
+    adios2_c           
+    MPI::MPI_C         
+    ${HDF5_LIBRARIES}   
 )
-
-
-set(CMAKE_CXX_STANDARD 11)
-set(CMAKE_CXX_STANDARD_REQUIRED ON)
-
-
-target_compile_options(phdf5_example PRIVATE ${MPI_C_COMPILE_FLAGS})

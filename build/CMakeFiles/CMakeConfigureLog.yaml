@@ -61,8 +61,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-tTd6pq"
-      binary: "/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-tTd6pq"
+      source: "/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-4X3Z48"
+      binary: "/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-4X3Z48"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -71,13 +71,13 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-tTd6pq'
+        Change Dir: '/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-4X3Z48'
         
-        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_34201/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_34201.dir/build.make CMakeFiles/cmTC_34201.dir/build
-        gmake[1]: Entering directory '/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-tTd6pq'
-        Building C object CMakeFiles/cmTC_34201.dir/CMakeCCompilerABI.c.o
-        /usr/bin/cc   -v -o CMakeFiles/cmTC_34201.dir/CMakeCCompilerABI.c.o -c /usr/local/share/cmake-3.29/Modules/CMakeCCompilerABI.c
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_15a4e/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_15a4e.dir/build.make CMakeFiles/cmTC_15a4e.dir/build
+        gmake[1]: Entering directory '/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-4X3Z48'
+        Building C object CMakeFiles/cmTC_15a4e.dir/CMakeCCompilerABI.c.o
+        /usr/bin/cc   -v -o CMakeFiles/cmTC_15a4e.dir/CMakeCCompilerABI.c.o -c /usr/local/share/cmake-3.29/Modules/CMakeCCompilerABI.c
         Using built-in specs.
         COLLECT_GCC=/usr/bin/cc
         OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
@@ -87,8 +87,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib zstd
         gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) 
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_34201.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_34201.dir/'
-         /usr/lib/gcc/x86_64-linux-gnu/11/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/local/share/cmake-3.29/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_34201.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccNXigK9.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_15a4e.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_15a4e.dir/'
+         /usr/lib/gcc/x86_64-linux-gnu/11/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/local/share/cmake-3.29/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_15a4e.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/cchtE9bQ.s
         GNU C17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)
         	compiled by GNU C version 11.4.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
         
@@ -110,15 +110,15 @@ events:
         
         GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
         Compiler executable checksum: 50eaa2331df977b8016186198deb2d18
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_34201.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_34201.dir/'
-         as -v --64 -o CMakeFiles/cmTC_34201.dir/CMakeCCompilerABI.c.o /tmp/ccNXigK9.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_15a4e.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_15a4e.dir/'
+         as -v --64 -o CMakeFiles/cmTC_15a4e.dir/CMakeCCompilerABI.c.o /tmp/cchtE9bQ.s
         GNU assembler version 2.38 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38
         COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
         LIBRARY_PATH=/home/adios/local/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/home/adios/local/lib/:./:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_34201.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_34201.dir/CMakeCCompilerABI.c.'
-        Linking C executable cmTC_34201
-        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_34201.dir/link.txt --verbose=1
-        /usr/bin/cc  -v -Wl,-v CMakeFiles/cmTC_34201.dir/CMakeCCompilerABI.c.o -o cmTC_34201
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_15a4e.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_15a4e.dir/CMakeCCompilerABI.c.'
+        Linking C executable cmTC_15a4e
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_15a4e.dir/link.txt --verbose=1
+        /usr/bin/cc  -v -Wl,-v CMakeFiles/cmTC_15a4e.dir/CMakeCCompilerABI.c.o -o cmTC_15a4e
         Using built-in specs.
         COLLECT_GCC=/usr/bin/cc
         COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper
@@ -131,13 +131,13 @@ events:
         gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) 
         COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
         LIBRARY_PATH=/home/adios/local/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/home/adios/local/lib/:./:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_34201' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_34201.'
-         /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccpFnZL6.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_34201 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/home/adios/local/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/home/adios/local/lib -L. -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. -v CMakeFiles/cmTC_34201.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_15a4e' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_15a4e.'
+         /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccm1rmlW.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_15a4e /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/home/adios/local/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/home/adios/local/lib -L. -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. -v CMakeFiles/cmTC_15a4e.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o
         collect2 version 11.4.0
-        /usr/bin/ld -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccpFnZL6.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_34201 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/home/adios/local/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/home/adios/local/lib -L. -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. -v CMakeFiles/cmTC_34201.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o
+        /usr/bin/ld -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccm1rmlW.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_15a4e /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/home/adios/local/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/home/adios/local/lib -L. -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. -v CMakeFiles/cmTC_15a4e.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o
         GNU ld (GNU Binutils for Ubuntu) 2.38
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_34201' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_34201.'
-        gmake[1]: Leaving directory '/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-tTd6pq'
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_15a4e' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_15a4e.'
+        gmake[1]: Leaving directory '/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-4X3Z48'
         
       exitCode: 0
   -
@@ -174,13 +174,13 @@ events:
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
-        ignore line: [Change Dir: '/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-tTd6pq']
+        ignore line: [Change Dir: '/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-4X3Z48']
         ignore line: []
-        ignore line: [Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_34201/fast]
-        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_34201.dir/build.make CMakeFiles/cmTC_34201.dir/build]
-        ignore line: [gmake[1]: Entering directory '/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-tTd6pq']
-        ignore line: [Building C object CMakeFiles/cmTC_34201.dir/CMakeCCompilerABI.c.o]
-        ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_34201.dir/CMakeCCompilerABI.c.o -c /usr/local/share/cmake-3.29/Modules/CMakeCCompilerABI.c]
+        ignore line: [Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_15a4e/fast]
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_15a4e.dir/build.make CMakeFiles/cmTC_15a4e.dir/build]
+        ignore line: [gmake[1]: Entering directory '/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-4X3Z48']
+        ignore line: [Building C object CMakeFiles/cmTC_15a4e.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_15a4e.dir/CMakeCCompilerABI.c.o -c /usr/local/share/cmake-3.29/Modules/CMakeCCompilerABI.c]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/cc]
         ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
@@ -190,8 +190,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
         ignore line: [gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_34201.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_34201.dir/']
-        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/local/share/cmake-3.29/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_34201.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccNXigK9.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_15a4e.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_15a4e.dir/']
+        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/local/share/cmake-3.29/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_15a4e.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/cchtE9bQ.s]
         ignore line: [GNU C17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)]
         ignore line: [	compiled by GNU C version 11.4.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
         ignore line: []
@@ -213,15 +213,15 @@ events:
         ignore line: []
         ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
         ignore line: [Compiler executable checksum: 50eaa2331df977b8016186198deb2d18]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_34201.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_34201.dir/']
-        ignore line: [ as -v --64 -o CMakeFiles/cmTC_34201.dir/CMakeCCompilerABI.c.o /tmp/ccNXigK9.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_15a4e.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_15a4e.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_15a4e.dir/CMakeCCompilerABI.c.o /tmp/cchtE9bQ.s]
         ignore line: [GNU assembler version 2.38 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38]
         ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/]
         ignore line: [LIBRARY_PATH=/home/adios/local/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/home/adios/local/lib/:./:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_34201.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_34201.dir/CMakeCCompilerABI.c.']
-        ignore line: [Linking C executable cmTC_34201]
-        ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_34201.dir/link.txt --verbose=1]
-        ignore line: [/usr/bin/cc  -v -Wl -v CMakeFiles/cmTC_34201.dir/CMakeCCompilerABI.c.o -o cmTC_34201]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_15a4e.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_15a4e.dir/CMakeCCompilerABI.c.']
+        ignore line: [Linking C executable cmTC_15a4e]
+        ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_15a4e.dir/link.txt --verbose=1]
+        ignore line: [/usr/bin/cc  -v -Wl -v CMakeFiles/cmTC_15a4e.dir/CMakeCCompilerABI.c.o -o cmTC_15a4e]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/cc]
         ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper]
@@ -234,13 +234,13 @@ events:
         ignore line: [gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) ]
         ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/]
         ignore line: [LIBRARY_PATH=/home/adios/local/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/home/adios/local/lib/:./:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_34201' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_34201.']
-        link line: [ /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccpFnZL6.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_34201 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/home/adios/local/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/home/adios/local/lib -L. -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. -v CMakeFiles/cmTC_34201.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_15a4e' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_15a4e.']
+        link line: [ /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccm1rmlW.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_15a4e /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/home/adios/local/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/home/adios/local/lib -L. -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. -v CMakeFiles/cmTC_15a4e.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
           arg [/usr/lib/gcc/x86_64-linux-gnu/11/collect2] ==> ignore
           arg [-plugin] ==> ignore
           arg [/usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so] ==> ignore
           arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper] ==> ignore
-          arg [-plugin-opt=-fresolution=/tmp/ccpFnZL6.res] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccm1rmlW.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
           arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -258,7 +258,7 @@ events:
           arg [-znow] ==> ignore
           arg [-zrelro] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_34201] ==> ignore
+          arg [cmTC_15a4e] ==> ignore
           arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o]
           arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o]
           arg [/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o]
@@ -274,7 +274,7 @@ events:
           arg [-L.] ==> ignore
           arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../..]
           arg [-v] ==> ignore
-          arg [CMakeFiles/cmTC_34201.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [CMakeFiles/cmTC_15a4e.dir/CMakeCCompilerABI.c.o] ==> ignore
           arg [-lgcc] ==> lib [gcc]
           arg [--push-state] ==> ignore
           arg [--as-needed] ==> ignore
@@ -289,7 +289,7 @@ events:
           arg [/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o]
           arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
         ignore line: [collect2 version 11.4.0]
-        ignore line: [/usr/bin/ld -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccpFnZL6.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_34201 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/home/adios/local/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/home/adios/local/lib -L. -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. -v CMakeFiles/cmTC_34201.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
+        ignore line: [/usr/bin/ld -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccm1rmlW.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_15a4e /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/home/adios/local/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/home/adios/local/lib -L. -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. -v CMakeFiles/cmTC_15a4e.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
         linker tool for 'C': /usr/bin/ld
         collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o] ==> [/usr/lib/x86_64-linux-gnu/Scrt1.o]
         collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o] ==> [/usr/lib/x86_64-linux-gnu/crti.o]
@@ -329,8 +329,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-0FKB6c"
-      binary: "/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-0FKB6c"
+      source: "/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-wC9m6W"
+      binary: "/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-wC9m6W"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -339,13 +339,13 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-0FKB6c'
+        Change Dir: '/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-wC9m6W'
         
-        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_47cc6/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_47cc6.dir/build.make CMakeFiles/cmTC_47cc6.dir/build
-        gmake[1]: Entering directory '/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-0FKB6c'
-        Building CXX object CMakeFiles/cmTC_47cc6.dir/CMakeCXXCompilerABI.cpp.o
-        /usr/bin/c++   -v -o CMakeFiles/cmTC_47cc6.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake-3.29/Modules/CMakeCXXCompilerABI.cpp
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_8bf2a/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_8bf2a.dir/build.make CMakeFiles/cmTC_8bf2a.dir/build
+        gmake[1]: Entering directory '/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-wC9m6W'
+        Building CXX object CMakeFiles/cmTC_8bf2a.dir/CMakeCXXCompilerABI.cpp.o
+        /usr/bin/c++   -v -o CMakeFiles/cmTC_8bf2a.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake-3.29/Modules/CMakeCXXCompilerABI.cpp
         Using built-in specs.
         COLLECT_GCC=/usr/bin/c++
         OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
@@ -355,8 +355,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib zstd
         gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) 
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_47cc6.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_47cc6.dir/'
-         /usr/lib/gcc/x86_64-linux-gnu/11/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/local/share/cmake-3.29/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_47cc6.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccW5zidJ.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_8bf2a.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_8bf2a.dir/'
+         /usr/lib/gcc/x86_64-linux-gnu/11/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/local/share/cmake-3.29/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_8bf2a.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/cczvmf42.s
         GNU C++17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)
         	compiled by GNU C version 11.4.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
         
@@ -382,15 +382,15 @@ events:
         
         GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
         Compiler executable checksum: d591828bb4d392ae8b7b160e5bb0b95f
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_47cc6.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_47cc6.dir/'
-         as -v --64 -o CMakeFiles/cmTC_47cc6.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccW5zidJ.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_8bf2a.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_8bf2a.dir/'
+         as -v --64 -o CMakeFiles/cmTC_8bf2a.dir/CMakeCXXCompilerABI.cpp.o /tmp/cczvmf42.s
         GNU assembler version 2.38 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38
         COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
         LIBRARY_PATH=/home/adios/local/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/home/adios/local/lib/:./:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_47cc6.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_47cc6.dir/CMakeCXXCompilerABI.cpp.'
-        Linking CXX executable cmTC_47cc6
-        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_47cc6.dir/link.txt --verbose=1
-        /usr/bin/c++  -v -Wl,-v CMakeFiles/cmTC_47cc6.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_47cc6
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_8bf2a.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_8bf2a.dir/CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_8bf2a
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8bf2a.dir/link.txt --verbose=1
+        /usr/bin/c++  -v -Wl,-v CMakeFiles/cmTC_8bf2a.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_8bf2a
         Using built-in specs.
         COLLECT_GCC=/usr/bin/c++
         COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper
@@ -403,13 +403,13 @@ events:
         gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) 
         COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
         LIBRARY_PATH=/home/adios/local/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/home/adios/local/lib/:./:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_47cc6' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_47cc6.'
-         /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccy3MaWb.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_47cc6 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/home/adios/local/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/home/adios/local/lib -L. -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. -v CMakeFiles/cmTC_47cc6.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_8bf2a' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_8bf2a.'
+         /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/cctKhNQ6.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_8bf2a /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/home/adios/local/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/home/adios/local/lib -L. -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. -v CMakeFiles/cmTC_8bf2a.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o
         collect2 version 11.4.0
-        /usr/bin/ld -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccy3MaWb.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_47cc6 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/home/adios/local/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/home/adios/local/lib -L. -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. -v CMakeFiles/cmTC_47cc6.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o
+        /usr/bin/ld -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/cctKhNQ6.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_8bf2a /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/home/adios/local/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/home/adios/local/lib -L. -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. -v CMakeFiles/cmTC_8bf2a.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o
         GNU ld (GNU Binutils for Ubuntu) 2.38
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_47cc6' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_47cc6.'
-        gmake[1]: Leaving directory '/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-0FKB6c'
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_8bf2a' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_8bf2a.'
+        gmake[1]: Leaving directory '/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-wC9m6W'
         
       exitCode: 0
   -
@@ -452,13 +452,13 @@ events:
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
-        ignore line: [Change Dir: '/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-0FKB6c']
+        ignore line: [Change Dir: '/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-wC9m6W']
         ignore line: []
-        ignore line: [Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_47cc6/fast]
-        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_47cc6.dir/build.make CMakeFiles/cmTC_47cc6.dir/build]
-        ignore line: [gmake[1]: Entering directory '/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-0FKB6c']
-        ignore line: [Building CXX object CMakeFiles/cmTC_47cc6.dir/CMakeCXXCompilerABI.cpp.o]
-        ignore line: [/usr/bin/c++   -v -o CMakeFiles/cmTC_47cc6.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake-3.29/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_8bf2a/fast]
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_8bf2a.dir/build.make CMakeFiles/cmTC_8bf2a.dir/build]
+        ignore line: [gmake[1]: Entering directory '/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-wC9m6W']
+        ignore line: [Building CXX object CMakeFiles/cmTC_8bf2a.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/usr/bin/c++   -v -o CMakeFiles/cmTC_8bf2a.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake-3.29/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/c++]
         ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
@@ -468,8 +468,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
         ignore line: [gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_47cc6.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_47cc6.dir/']
-        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/local/share/cmake-3.29/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_47cc6.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccW5zidJ.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_8bf2a.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_8bf2a.dir/']
+        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/local/share/cmake-3.29/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_8bf2a.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/cczvmf42.s]
         ignore line: [GNU C++17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)]
         ignore line: [	compiled by GNU C version 11.4.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
         ignore line: []
@@ -495,15 +495,15 @@ events:
         ignore line: []
         ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
         ignore line: [Compiler executable checksum: d591828bb4d392ae8b7b160e5bb0b95f]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_47cc6.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_47cc6.dir/']
-        ignore line: [ as -v --64 -o CMakeFiles/cmTC_47cc6.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccW5zidJ.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_8bf2a.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_8bf2a.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_8bf2a.dir/CMakeCXXCompilerABI.cpp.o /tmp/cczvmf42.s]
         ignore line: [GNU assembler version 2.38 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38]
         ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/]
         ignore line: [LIBRARY_PATH=/home/adios/local/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/home/adios/local/lib/:./:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_47cc6.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_47cc6.dir/CMakeCXXCompilerABI.cpp.']
-        ignore line: [Linking CXX executable cmTC_47cc6]
-        ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_47cc6.dir/link.txt --verbose=1]
-        ignore line: [/usr/bin/c++  -v -Wl -v CMakeFiles/cmTC_47cc6.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_47cc6]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_8bf2a.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_8bf2a.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_8bf2a]
+        ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8bf2a.dir/link.txt --verbose=1]
+        ignore line: [/usr/bin/c++  -v -Wl -v CMakeFiles/cmTC_8bf2a.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_8bf2a]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/c++]
         ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper]
@@ -516,13 +516,13 @@ events:
         ignore line: [gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) ]
         ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/]
         ignore line: [LIBRARY_PATH=/home/adios/local/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/home/adios/local/lib/:./:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_47cc6' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_47cc6.']
-        link line: [ /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccy3MaWb.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_47cc6 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/home/adios/local/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/home/adios/local/lib -L. -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. -v CMakeFiles/cmTC_47cc6.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_8bf2a' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_8bf2a.']
+        link line: [ /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/cctKhNQ6.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_8bf2a /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/home/adios/local/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/home/adios/local/lib -L. -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. -v CMakeFiles/cmTC_8bf2a.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
           arg [/usr/lib/gcc/x86_64-linux-gnu/11/collect2] ==> ignore
           arg [-plugin] ==> ignore
           arg [/usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so] ==> ignore
           arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper] ==> ignore
-          arg [-plugin-opt=-fresolution=/tmp/ccy3MaWb.res] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/cctKhNQ6.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -540,7 +540,7 @@ events:
           arg [-znow] ==> ignore
           arg [-zrelro] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_47cc6] ==> ignore
+          arg [cmTC_8bf2a] ==> ignore
           arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o]
           arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o]
           arg [/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o]
@@ -556,7 +556,7 @@ events:
           arg [-L.] ==> ignore
           arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../..]
           arg [-v] ==> ignore
-          arg [CMakeFiles/cmTC_47cc6.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [CMakeFiles/cmTC_8bf2a.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
           arg [-lstdc++] ==> lib [stdc++]
           arg [-lm] ==> lib [m]
           arg [-lgcc_s] ==> lib [gcc_s]
@@ -567,7 +567,7 @@ events:
           arg [/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o]
           arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
         ignore line: [collect2 version 11.4.0]
-        ignore line: [/usr/bin/ld -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccy3MaWb.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_47cc6 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/home/adios/local/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/home/adios/local/lib -L. -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. -v CMakeFiles/cmTC_47cc6.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
+        ignore line: [/usr/bin/ld -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/cctKhNQ6.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_8bf2a /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/home/adios/local/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/home/adios/local/lib -L. -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. -v CMakeFiles/cmTC_8bf2a.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
         linker tool for 'CXX': /usr/bin/ld
         collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o] ==> [/usr/lib/x86_64-linux-gnu/Scrt1.o]
         collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o] ==> [/usr/lib/x86_64-linux-gnu/crti.o]
@@ -607,8 +607,8 @@ events:
       - "CMakeLists.txt:5 (find_package)"
     description: "The MPI test test_mpi for C in mode normal"
     directories:
-      source: "/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-hdaJ4g"
-      binary: "/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-hdaJ4g"
+      source: "/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-vOUGIv"
+      binary: "/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-vOUGIv"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -617,17 +617,17 @@ events:
       variable: "MPI_RESULT_C_test_mpi_normal"
       cached: true
       stdout: |
-        Change Dir: '/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-hdaJ4g'
+        Change Dir: '/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-vOUGIv'
         
-        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_19531/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_19531.dir/build.make CMakeFiles/cmTC_19531.dir/build
-        gmake[1]: Entering directory '/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-hdaJ4g'
-        Building C object CMakeFiles/cmTC_19531.dir/test_mpi.c.o
-        /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_19531.dir/test_mpi.c.o -c /home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-hdaJ4g/test_mpi.c
-        Linking C executable cmTC_19531
-        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_19531.dir/link.txt --verbose=1
-        /usr/bin/cc CMakeFiles/cmTC_19531.dir/test_mpi.c.o -o cmTC_19531  -Wl,-rpath,/usr/lib/x86_64-linux-gnu/openmpi/lib /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi.so
-        gmake[1]: Leaving directory '/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-hdaJ4g'
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_01d99/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_01d99.dir/build.make CMakeFiles/cmTC_01d99.dir/build
+        gmake[1]: Entering directory '/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-vOUGIv'
+        Building C object CMakeFiles/cmTC_01d99.dir/test_mpi.c.o
+        /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_01d99.dir/test_mpi.c.o -c /home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-vOUGIv/test_mpi.c
+        Linking C executable cmTC_01d99
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_01d99.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_01d99.dir/test_mpi.c.o -o cmTC_01d99  -Wl,-rpath,/usr/lib/x86_64-linux-gnu/openmpi/lib /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi.so
+        gmake[1]: Leaving directory '/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-vOUGIv'
         
       exitCode: 0
   -
@@ -639,8 +639,8 @@ events:
       - "CMakeLists.txt:5 (find_package)"
     description: "The MPI test test_mpi for CXX in mode normal"
     directories:
-      source: "/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-WCjs14"
-      binary: "/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-WCjs14"
+      source: "/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-2a2c4j"
+      binary: "/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-2a2c4j"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -649,17 +649,17 @@ events:
       variable: "MPI_RESULT_CXX_test_mpi_normal"
       cached: true
       stdout: |
-        Change Dir: '/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-WCjs14'
+        Change Dir: '/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-2a2c4j'
         
-        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_90793/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_90793.dir/build.make CMakeFiles/cmTC_90793.dir/build
-        gmake[1]: Entering directory '/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-WCjs14'
-        Building CXX object CMakeFiles/cmTC_90793.dir/test_mpi.cpp.o
-        /usr/bin/c++  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_90793.dir/test_mpi.cpp.o -c /home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-WCjs14/test_mpi.cpp
-        Linking CXX executable cmTC_90793
-        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_90793.dir/link.txt --verbose=1
-        /usr/bin/c++ CMakeFiles/cmTC_90793.dir/test_mpi.cpp.o -o cmTC_90793  -Wl,-rpath,/usr/lib/x86_64-linux-gnu/openmpi/lib /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi_cxx.so /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi.so
-        gmake[1]: Leaving directory '/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-WCjs14'
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_fba0d/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_fba0d.dir/build.make CMakeFiles/cmTC_fba0d.dir/build
+        gmake[1]: Entering directory '/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-2a2c4j'
+        Building CXX object CMakeFiles/cmTC_fba0d.dir/test_mpi.cpp.o
+        /usr/bin/c++  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_fba0d.dir/test_mpi.cpp.o -c /home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-2a2c4j/test_mpi.cpp
+        Linking CXX executable cmTC_fba0d
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fba0d.dir/link.txt --verbose=1
+        /usr/bin/c++ CMakeFiles/cmTC_fba0d.dir/test_mpi.cpp.o -o cmTC_fba0d  -Wl,-rpath,/usr/lib/x86_64-linux-gnu/openmpi/lib /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi_cxx.so /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi.so
+        gmake[1]: Leaving directory '/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-2a2c4j'
         
       exitCode: 0
   -
@@ -670,8 +670,8 @@ events:
       - "CMakeLists.txt:5 (find_package)"
     description: "The MPI test test_mpi for CXX in mode MPICXX"
     directories:
-      source: "/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-tdCDPB"
-      binary: "/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-tdCDPB"
+      source: "/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-PAFAM6"
+      binary: "/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-PAFAM6"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -680,17 +680,17 @@ events:
       variable: "MPI_RESULT_CXX_test_mpi_MPICXX"
       cached: true
       stdout: |
-        Change Dir: '/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-tdCDPB'
+        Change Dir: '/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-PAFAM6'
         
-        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_496cd/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_496cd.dir/build.make CMakeFiles/cmTC_496cd.dir/build
-        gmake[1]: Entering directory '/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-tdCDPB'
-        Building CXX object CMakeFiles/cmTC_496cd.dir/test_mpi.cpp.o
-        /usr/bin/c++  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_496cd.dir/test_mpi.cpp.o -c /home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-tdCDPB/test_mpi.cpp
-        Linking CXX executable cmTC_496cd
-        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_496cd.dir/link.txt --verbose=1
-        /usr/bin/c++ CMakeFiles/cmTC_496cd.dir/test_mpi.cpp.o -o cmTC_496cd  -Wl,-rpath,/usr/lib/x86_64-linux-gnu/openmpi/lib /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi_cxx.so /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi.so
-        gmake[1]: Leaving directory '/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-tdCDPB'
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_0289a/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_0289a.dir/build.make CMakeFiles/cmTC_0289a.dir/build
+        gmake[1]: Entering directory '/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-PAFAM6'
+        Building CXX object CMakeFiles/cmTC_0289a.dir/test_mpi.cpp.o
+        /usr/bin/c++  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_0289a.dir/test_mpi.cpp.o -c /home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-PAFAM6/test_mpi.cpp
+        Linking CXX executable cmTC_0289a
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0289a.dir/link.txt --verbose=1
+        /usr/bin/c++ CMakeFiles/cmTC_0289a.dir/test_mpi.cpp.o -o cmTC_0289a  -Wl,-rpath,/usr/lib/x86_64-linux-gnu/openmpi/lib /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi_cxx.so /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi.so
+        gmake[1]: Leaving directory '/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-PAFAM6'
         
       exitCode: 0
   -
@@ -700,8 +700,8 @@ events:
       - "/usr/local/share/cmake-3.29/Modules/FindHDF5.cmake:608 (_HDF5_test_regular_compiler_C)"
       - "CMakeLists.txt:6 (find_package)"
     directories:
-      source: "/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-vRTtop"
-      binary: "/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-vRTtop"
+      source: "/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-Ibl3ND"
+      binary: "/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-Ibl3ND"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -710,23 +710,1008 @@ events:
       variable: "HDF5_C_COMPILER_NO_INTERROGATE"
       cached: true
       stdout: |
-        Change Dir: '/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-vRTtop'
+        Change Dir: '/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-Ibl3ND'
         
-        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_74331/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_74331.dir/build.make CMakeFiles/cmTC_74331.dir/build
-        gmake[1]: Entering directory '/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-vRTtop'
-        Building C object CMakeFiles/cmTC_74331.dir/cmake_hdf5_test.c.o
-        /usr/bin/cc    -o CMakeFiles/cmTC_74331.dir/cmake_hdf5_test.c.o -c /home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/hdf5/cmake_hdf5_test.c
-        Linking C executable cmTC_74331
-        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_74331.dir/link.txt --verbose=1
-        /usr/bin/cc CMakeFiles/cmTC_74331.dir/cmake_hdf5_test.c.o -o cmTC_74331
-        /usr/bin/ld: CMakeFiles/cmTC_74331.dir/cmake_hdf5_test.c.o: in function `main':
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_18301/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_18301.dir/build.make CMakeFiles/cmTC_18301.dir/build
+        gmake[1]: Entering directory '/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-Ibl3ND'
+        Building C object CMakeFiles/cmTC_18301.dir/cmake_hdf5_test.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_18301.dir/cmake_hdf5_test.c.o -c /home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/hdf5/cmake_hdf5_test.c
+        Linking C executable cmTC_18301
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_18301.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_18301.dir/cmake_hdf5_test.c.o -o cmTC_18301
+        /usr/bin/ld: CMakeFiles/cmTC_18301.dir/cmake_hdf5_test.c.o: in function `main':
         cmake_hdf5_test.c:(.text+0x5a): undefined reference to `H5check_version'
         /usr/bin/ld: cmake_hdf5_test.c:(.text+0x78): undefined reference to `H5Fcreate'
         collect2: error: ld returned 1 exit status
-        gmake[1]: *** [CMakeFiles/cmTC_74331.dir/build.make:99: cmTC_74331] Error 1
-        gmake[1]: Leaving directory '/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-vRTtop'
-        gmake: *** [Makefile:127: cmTC_74331/fast] Error 2
+        gmake[1]: *** [CMakeFiles/cmTC_18301.dir/build.make:99: cmTC_18301] Error 1
+        gmake[1]: Leaving directory '/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-Ibl3ND'
+        gmake: *** [Makefile:127: cmTC_18301/fast] Error 2
+        
+      exitCode: 2
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.29/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/usr/local/share/cmake-3.29/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/usr/local/share/cmake-3.29/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:5 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-Br6aBy"
+      binary: "/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-Br6aBy"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-Br6aBy'
+        
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_86585/fast
+        gmake[1]: Entering directory '/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-Br6aBy'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_86585.dir/build.make CMakeFiles/cmTC_86585.dir/build
+        gmake[2]: Entering directory '/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-Br6aBy'
+        Building C object CMakeFiles/cmTC_86585.dir/test_mpi.c.o
+        /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_86585.dir/test_mpi.c.o -c /home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-Br6aBy/test_mpi.c
+        Linking C executable cmTC_86585
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_86585.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_86585.dir/test_mpi.c.o -o cmTC_86585  -Wl,-rpath,/usr/lib/x86_64-linux-gnu/openmpi/lib /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi.so
+        gmake[2]: Leaving directory '/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-Br6aBy'
+        gmake[1]: Leaving directory '/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-Br6aBy'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.29/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/usr/local/share/cmake-3.29/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/usr/local/share/cmake-3.29/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:5 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode normal"
+    directories:
+      source: "/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-gfQuKX"
+      binary: "/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-gfQuKX"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-gfQuKX'
+        
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_2c1d7/fast
+        gmake[1]: Entering directory '/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-gfQuKX'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_2c1d7.dir/build.make CMakeFiles/cmTC_2c1d7.dir/build
+        gmake[2]: Entering directory '/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-gfQuKX'
+        Building CXX object CMakeFiles/cmTC_2c1d7.dir/test_mpi.cpp.o
+        /usr/bin/c++  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_2c1d7.dir/test_mpi.cpp.o -c /home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-gfQuKX/test_mpi.cpp
+        Linking CXX executable cmTC_2c1d7
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2c1d7.dir/link.txt --verbose=1
+        /usr/bin/c++ CMakeFiles/cmTC_2c1d7.dir/test_mpi.cpp.o -o cmTC_2c1d7  -Wl,-rpath,/usr/lib/x86_64-linux-gnu/openmpi/lib /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi_cxx.so /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi.so
+        gmake[2]: Leaving directory '/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-gfQuKX'
+        gmake[1]: Leaving directory '/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-gfQuKX'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.29/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/usr/local/share/cmake-3.29/Modules/FindMPI.cmake:1672 (_MPI_try_staged_settings)"
+      - "CMakeLists.txt:5 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode MPICXX"
+    directories:
+      source: "/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-4aLi4i"
+      binary: "/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-4aLi4i"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_MPICXX"
+      cached: true
+      stdout: |
+        Change Dir: '/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-4aLi4i'
+        
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_3333d/fast
+        gmake[1]: Entering directory '/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-4aLi4i'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_3333d.dir/build.make CMakeFiles/cmTC_3333d.dir/build
+        gmake[2]: Entering directory '/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-4aLi4i'
+        Building CXX object CMakeFiles/cmTC_3333d.dir/test_mpi.cpp.o
+        /usr/bin/c++  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_3333d.dir/test_mpi.cpp.o -c /home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-4aLi4i/test_mpi.cpp
+        Linking CXX executable cmTC_3333d
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3333d.dir/link.txt --verbose=1
+        /usr/bin/c++ CMakeFiles/cmTC_3333d.dir/test_mpi.cpp.o -o cmTC_3333d  -Wl,-rpath,/usr/lib/x86_64-linux-gnu/openmpi/lib /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi_cxx.so /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi.so
+        gmake[2]: Leaving directory '/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-4aLi4i'
+        gmake[1]: Leaving directory '/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-4aLi4i'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.29/Modules/FindHDF5.cmake:238 (try_compile)"
+      - "/usr/local/share/cmake-3.29/Modules/FindHDF5.cmake:608 (_HDF5_test_regular_compiler_C)"
+      - "CMakeLists.txt:6 (find_package)"
+    directories:
+      source: "/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-6x4eAS"
+      binary: "/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-6x4eAS"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "HDF5_C_COMPILER_NO_INTERROGATE"
+      cached: true
+      stdout: |
+        Change Dir: '/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-6x4eAS'
+        
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_a6a9d/fast
+        gmake[1]: Entering directory '/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-6x4eAS'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_a6a9d.dir/build.make CMakeFiles/cmTC_a6a9d.dir/build
+        gmake[2]: Entering directory '/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-6x4eAS'
+        Building C object CMakeFiles/cmTC_a6a9d.dir/cmake_hdf5_test.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_a6a9d.dir/cmake_hdf5_test.c.o -c /home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/hdf5/cmake_hdf5_test.c
+        Linking C executable cmTC_a6a9d
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a6a9d.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_a6a9d.dir/cmake_hdf5_test.c.o -o cmTC_a6a9d
+        /usr/bin/ld: CMakeFiles/cmTC_a6a9d.dir/cmake_hdf5_test.c.o: in function `main':
+        cmake_hdf5_test.c:(.text+0x5a): undefined reference to `H5check_version'
+        /usr/bin/ld: cmake_hdf5_test.c:(.text+0x78): undefined reference to `H5Fcreate'
+        collect2: error: ld returned 1 exit status
+        gmake[2]: *** [CMakeFiles/cmTC_a6a9d.dir/build.make:99: cmTC_a6a9d] Error 1
+        gmake[2]: Leaving directory '/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-6x4eAS'
+        gmake[1]: *** [Makefile:127: cmTC_a6a9d/fast] Error 2
+        gmake[1]: Leaving directory '/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-6x4eAS'
+        
+      exitCode: 2
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.29/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/usr/local/share/cmake-3.29/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/usr/local/share/cmake-3.29/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:5 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-LvH1HR"
+      binary: "/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-LvH1HR"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-LvH1HR'
+        
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_c07b7/fast
+        gmake[1]: Entering directory '/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-LvH1HR'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_c07b7.dir/build.make CMakeFiles/cmTC_c07b7.dir/build
+        gmake[2]: Entering directory '/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-LvH1HR'
+        Building C object CMakeFiles/cmTC_c07b7.dir/test_mpi.c.o
+        /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_c07b7.dir/test_mpi.c.o -c /home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-LvH1HR/test_mpi.c
+        Linking C executable cmTC_c07b7
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c07b7.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_c07b7.dir/test_mpi.c.o -o cmTC_c07b7  -Wl,-rpath,/usr/lib/x86_64-linux-gnu/openmpi/lib /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi.so
+        gmake[2]: Leaving directory '/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-LvH1HR'
+        gmake[1]: Leaving directory '/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-LvH1HR'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.29/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/usr/local/share/cmake-3.29/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/usr/local/share/cmake-3.29/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:5 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode normal"
+    directories:
+      source: "/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-UeTXfG"
+      binary: "/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-UeTXfG"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-UeTXfG'
+        
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_af23e/fast
+        gmake[1]: Entering directory '/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-UeTXfG'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_af23e.dir/build.make CMakeFiles/cmTC_af23e.dir/build
+        gmake[2]: Entering directory '/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-UeTXfG'
+        Building CXX object CMakeFiles/cmTC_af23e.dir/test_mpi.cpp.o
+        /usr/bin/c++  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_af23e.dir/test_mpi.cpp.o -c /home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-UeTXfG/test_mpi.cpp
+        Linking CXX executable cmTC_af23e
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_af23e.dir/link.txt --verbose=1
+        /usr/bin/c++ CMakeFiles/cmTC_af23e.dir/test_mpi.cpp.o -o cmTC_af23e  -Wl,-rpath,/usr/lib/x86_64-linux-gnu/openmpi/lib /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi_cxx.so /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi.so
+        gmake[2]: Leaving directory '/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-UeTXfG'
+        gmake[1]: Leaving directory '/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-UeTXfG'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.29/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/usr/local/share/cmake-3.29/Modules/FindMPI.cmake:1672 (_MPI_try_staged_settings)"
+      - "CMakeLists.txt:5 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode MPICXX"
+    directories:
+      source: "/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-x9SQOv"
+      binary: "/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-x9SQOv"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_MPICXX"
+      cached: true
+      stdout: |
+        Change Dir: '/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-x9SQOv'
+        
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_52eaf/fast
+        gmake[1]: Entering directory '/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-x9SQOv'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_52eaf.dir/build.make CMakeFiles/cmTC_52eaf.dir/build
+        gmake[2]: Entering directory '/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-x9SQOv'
+        Building CXX object CMakeFiles/cmTC_52eaf.dir/test_mpi.cpp.o
+        /usr/bin/c++  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_52eaf.dir/test_mpi.cpp.o -c /home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-x9SQOv/test_mpi.cpp
+        Linking CXX executable cmTC_52eaf
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_52eaf.dir/link.txt --verbose=1
+        /usr/bin/c++ CMakeFiles/cmTC_52eaf.dir/test_mpi.cpp.o -o cmTC_52eaf  -Wl,-rpath,/usr/lib/x86_64-linux-gnu/openmpi/lib /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi_cxx.so /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi.so
+        gmake[2]: Leaving directory '/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-x9SQOv'
+        gmake[1]: Leaving directory '/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-x9SQOv'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.29/Modules/FindHDF5.cmake:238 (try_compile)"
+      - "/usr/local/share/cmake-3.29/Modules/FindHDF5.cmake:608 (_HDF5_test_regular_compiler_C)"
+      - "CMakeLists.txt:6 (find_package)"
+    directories:
+      source: "/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-9ezc6k"
+      binary: "/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-9ezc6k"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "HDF5_C_COMPILER_NO_INTERROGATE"
+      cached: true
+      stdout: |
+        Change Dir: '/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-9ezc6k'
+        
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_c8101/fast
+        gmake[1]: Entering directory '/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-9ezc6k'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_c8101.dir/build.make CMakeFiles/cmTC_c8101.dir/build
+        gmake[2]: Entering directory '/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-9ezc6k'
+        Building C object CMakeFiles/cmTC_c8101.dir/cmake_hdf5_test.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_c8101.dir/cmake_hdf5_test.c.o -c /home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/hdf5/cmake_hdf5_test.c
+        Linking C executable cmTC_c8101
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c8101.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_c8101.dir/cmake_hdf5_test.c.o -o cmTC_c8101
+        /usr/bin/ld: CMakeFiles/cmTC_c8101.dir/cmake_hdf5_test.c.o: in function `main':
+        cmake_hdf5_test.c:(.text+0x5a): undefined reference to `H5check_version'
+        /usr/bin/ld: cmake_hdf5_test.c:(.text+0x78): undefined reference to `H5Fcreate'
+        collect2: error: ld returned 1 exit status
+        gmake[2]: *** [CMakeFiles/cmTC_c8101.dir/build.make:99: cmTC_c8101] Error 1
+        gmake[2]: Leaving directory '/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-9ezc6k'
+        gmake[1]: *** [Makefile:127: cmTC_c8101/fast] Error 2
+        gmake[1]: Leaving directory '/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-9ezc6k'
+        
+      exitCode: 2
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.29/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/usr/local/share/cmake-3.29/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/usr/local/share/cmake-3.29/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:5 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-f06Nfn"
+      binary: "/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-f06Nfn"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-f06Nfn'
+        
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_8a53b/fast
+        gmake[1]: Entering directory '/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-f06Nfn'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_8a53b.dir/build.make CMakeFiles/cmTC_8a53b.dir/build
+        gmake[2]: Entering directory '/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-f06Nfn'
+        Building C object CMakeFiles/cmTC_8a53b.dir/test_mpi.c.o
+        /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_8a53b.dir/test_mpi.c.o -c /home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-f06Nfn/test_mpi.c
+        Linking C executable cmTC_8a53b
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8a53b.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_8a53b.dir/test_mpi.c.o -o cmTC_8a53b  -Wl,-rpath,/usr/lib/x86_64-linux-gnu/openmpi/lib /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi.so
+        gmake[2]: Leaving directory '/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-f06Nfn'
+        gmake[1]: Leaving directory '/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-f06Nfn'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.29/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/usr/local/share/cmake-3.29/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/usr/local/share/cmake-3.29/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:5 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode normal"
+    directories:
+      source: "/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-5Kd4zA"
+      binary: "/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-5Kd4zA"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-5Kd4zA'
+        
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_f6071/fast
+        gmake[1]: Entering directory '/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-5Kd4zA'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_f6071.dir/build.make CMakeFiles/cmTC_f6071.dir/build
+        gmake[2]: Entering directory '/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-5Kd4zA'
+        Building CXX object CMakeFiles/cmTC_f6071.dir/test_mpi.cpp.o
+        /usr/bin/c++  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_f6071.dir/test_mpi.cpp.o -c /home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-5Kd4zA/test_mpi.cpp
+        Linking CXX executable cmTC_f6071
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f6071.dir/link.txt --verbose=1
+        /usr/bin/c++ CMakeFiles/cmTC_f6071.dir/test_mpi.cpp.o -o cmTC_f6071  -Wl,-rpath,/usr/lib/x86_64-linux-gnu/openmpi/lib /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi_cxx.so /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi.so
+        gmake[2]: Leaving directory '/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-5Kd4zA'
+        gmake[1]: Leaving directory '/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-5Kd4zA'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.29/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/usr/local/share/cmake-3.29/Modules/FindMPI.cmake:1672 (_MPI_try_staged_settings)"
+      - "CMakeLists.txt:5 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode MPICXX"
+    directories:
+      source: "/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-GP8wgD"
+      binary: "/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-GP8wgD"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_MPICXX"
+      cached: true
+      stdout: |
+        Change Dir: '/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-GP8wgD'
+        
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_23d41/fast
+        gmake[1]: Entering directory '/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-GP8wgD'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_23d41.dir/build.make CMakeFiles/cmTC_23d41.dir/build
+        gmake[2]: Entering directory '/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-GP8wgD'
+        Building CXX object CMakeFiles/cmTC_23d41.dir/test_mpi.cpp.o
+        /usr/bin/c++  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_23d41.dir/test_mpi.cpp.o -c /home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-GP8wgD/test_mpi.cpp
+        Linking CXX executable cmTC_23d41
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_23d41.dir/link.txt --verbose=1
+        /usr/bin/c++ CMakeFiles/cmTC_23d41.dir/test_mpi.cpp.o -o cmTC_23d41  -Wl,-rpath,/usr/lib/x86_64-linux-gnu/openmpi/lib /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi_cxx.so /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi.so
+        gmake[2]: Leaving directory '/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-GP8wgD'
+        gmake[1]: Leaving directory '/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-GP8wgD'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.29/Modules/FindHDF5.cmake:238 (try_compile)"
+      - "/usr/local/share/cmake-3.29/Modules/FindHDF5.cmake:608 (_HDF5_test_regular_compiler_C)"
+      - "CMakeLists.txt:6 (find_package)"
+    directories:
+      source: "/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-lPkJn8"
+      binary: "/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-lPkJn8"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "HDF5_C_COMPILER_NO_INTERROGATE"
+      cached: true
+      stdout: |
+        Change Dir: '/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-lPkJn8'
+        
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_92146/fast
+        gmake[1]: Entering directory '/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-lPkJn8'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_92146.dir/build.make CMakeFiles/cmTC_92146.dir/build
+        gmake[2]: Entering directory '/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-lPkJn8'
+        Building C object CMakeFiles/cmTC_92146.dir/cmake_hdf5_test.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_92146.dir/cmake_hdf5_test.c.o -c /home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/hdf5/cmake_hdf5_test.c
+        Linking C executable cmTC_92146
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_92146.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_92146.dir/cmake_hdf5_test.c.o -o cmTC_92146
+        /usr/bin/ld: CMakeFiles/cmTC_92146.dir/cmake_hdf5_test.c.o: in function `main':
+        cmake_hdf5_test.c:(.text+0x5a): undefined reference to `H5check_version'
+        /usr/bin/ld: cmake_hdf5_test.c:(.text+0x78): undefined reference to `H5Fcreate'
+        collect2: error: ld returned 1 exit status
+        gmake[2]: *** [CMakeFiles/cmTC_92146.dir/build.make:99: cmTC_92146] Error 1
+        gmake[2]: Leaving directory '/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-lPkJn8'
+        gmake[1]: *** [Makefile:127: cmTC_92146/fast] Error 2
+        gmake[1]: Leaving directory '/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-lPkJn8'
+        
+      exitCode: 2
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.29/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/usr/local/share/cmake-3.29/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/usr/local/share/cmake-3.29/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:5 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-wSkbDC"
+      binary: "/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-wSkbDC"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-wSkbDC'
+        
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_46de9/fast
+        gmake[1]: Entering directory '/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-wSkbDC'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_46de9.dir/build.make CMakeFiles/cmTC_46de9.dir/build
+        gmake[2]: Entering directory '/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-wSkbDC'
+        Building C object CMakeFiles/cmTC_46de9.dir/test_mpi.c.o
+        /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_46de9.dir/test_mpi.c.o -c /home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-wSkbDC/test_mpi.c
+        Linking C executable cmTC_46de9
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_46de9.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_46de9.dir/test_mpi.c.o -o cmTC_46de9  -Wl,-rpath,/usr/lib/x86_64-linux-gnu/openmpi/lib /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi.so
+        gmake[2]: Leaving directory '/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-wSkbDC'
+        gmake[1]: Leaving directory '/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-wSkbDC'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.29/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/usr/local/share/cmake-3.29/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/usr/local/share/cmake-3.29/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:5 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode normal"
+    directories:
+      source: "/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-TygcCa"
+      binary: "/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-TygcCa"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-TygcCa'
+        
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_c505e/fast
+        gmake[1]: Entering directory '/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-TygcCa'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_c505e.dir/build.make CMakeFiles/cmTC_c505e.dir/build
+        gmake[2]: Entering directory '/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-TygcCa'
+        Building CXX object CMakeFiles/cmTC_c505e.dir/test_mpi.cpp.o
+        /usr/bin/c++  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_c505e.dir/test_mpi.cpp.o -c /home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-TygcCa/test_mpi.cpp
+        Linking CXX executable cmTC_c505e
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c505e.dir/link.txt --verbose=1
+        /usr/bin/c++ CMakeFiles/cmTC_c505e.dir/test_mpi.cpp.o -o cmTC_c505e  -Wl,-rpath,/usr/lib/x86_64-linux-gnu/openmpi/lib /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi_cxx.so /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi.so
+        gmake[2]: Leaving directory '/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-TygcCa'
+        gmake[1]: Leaving directory '/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-TygcCa'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.29/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/usr/local/share/cmake-3.29/Modules/FindMPI.cmake:1672 (_MPI_try_staged_settings)"
+      - "CMakeLists.txt:5 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode MPICXX"
+    directories:
+      source: "/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-UHNW60"
+      binary: "/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-UHNW60"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_MPICXX"
+      cached: true
+      stdout: |
+        Change Dir: '/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-UHNW60'
+        
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_447b2/fast
+        gmake[1]: Entering directory '/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-UHNW60'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_447b2.dir/build.make CMakeFiles/cmTC_447b2.dir/build
+        gmake[2]: Entering directory '/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-UHNW60'
+        Building CXX object CMakeFiles/cmTC_447b2.dir/test_mpi.cpp.o
+        /usr/bin/c++  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_447b2.dir/test_mpi.cpp.o -c /home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-UHNW60/test_mpi.cpp
+        Linking CXX executable cmTC_447b2
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_447b2.dir/link.txt --verbose=1
+        /usr/bin/c++ CMakeFiles/cmTC_447b2.dir/test_mpi.cpp.o -o cmTC_447b2  -Wl,-rpath,/usr/lib/x86_64-linux-gnu/openmpi/lib /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi_cxx.so /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi.so
+        gmake[2]: Leaving directory '/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-UHNW60'
+        gmake[1]: Leaving directory '/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-UHNW60'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.29/Modules/FindHDF5.cmake:238 (try_compile)"
+      - "/usr/local/share/cmake-3.29/Modules/FindHDF5.cmake:608 (_HDF5_test_regular_compiler_C)"
+      - "CMakeLists.txt:6 (find_package)"
+    directories:
+      source: "/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-HU3qHc"
+      binary: "/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-HU3qHc"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "HDF5_C_COMPILER_NO_INTERROGATE"
+      cached: true
+      stdout: |
+        Change Dir: '/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-HU3qHc'
+        
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_19998/fast
+        gmake[1]: Entering directory '/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-HU3qHc'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_19998.dir/build.make CMakeFiles/cmTC_19998.dir/build
+        gmake[2]: Entering directory '/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-HU3qHc'
+        Building C object CMakeFiles/cmTC_19998.dir/cmake_hdf5_test.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_19998.dir/cmake_hdf5_test.c.o -c /home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/hdf5/cmake_hdf5_test.c
+        Linking C executable cmTC_19998
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_19998.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_19998.dir/cmake_hdf5_test.c.o -o cmTC_19998
+        /usr/bin/ld: CMakeFiles/cmTC_19998.dir/cmake_hdf5_test.c.o: in function `main':
+        cmake_hdf5_test.c:(.text+0x5a): undefined reference to `H5check_version'
+        /usr/bin/ld: cmake_hdf5_test.c:(.text+0x78): undefined reference to `H5Fcreate'
+        collect2: error: ld returned 1 exit status
+        gmake[2]: *** [CMakeFiles/cmTC_19998.dir/build.make:99: cmTC_19998] Error 1
+        gmake[2]: Leaving directory '/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-HU3qHc'
+        gmake[1]: *** [Makefile:127: cmTC_19998/fast] Error 2
+        gmake[1]: Leaving directory '/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-HU3qHc'
+        
+      exitCode: 2
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.29/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/usr/local/share/cmake-3.29/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/usr/local/share/cmake-3.29/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:5 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-r8cRWp"
+      binary: "/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-r8cRWp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-r8cRWp'
+        
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_15dd6/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_15dd6.dir/build.make CMakeFiles/cmTC_15dd6.dir/build
+        gmake[1]: Entering directory '/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-r8cRWp'
+        Building C object CMakeFiles/cmTC_15dd6.dir/test_mpi.c.o
+        /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_15dd6.dir/test_mpi.c.o -c /home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-r8cRWp/test_mpi.c
+        Linking C executable cmTC_15dd6
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_15dd6.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_15dd6.dir/test_mpi.c.o -o cmTC_15dd6  -Wl,-rpath,/usr/lib/x86_64-linux-gnu/openmpi/lib /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi.so
+        gmake[1]: Leaving directory '/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-r8cRWp'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.29/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/usr/local/share/cmake-3.29/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/usr/local/share/cmake-3.29/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:5 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode normal"
+    directories:
+      source: "/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-HjDRv1"
+      binary: "/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-HjDRv1"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-HjDRv1'
+        
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_7dc53/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_7dc53.dir/build.make CMakeFiles/cmTC_7dc53.dir/build
+        gmake[1]: Entering directory '/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-HjDRv1'
+        Building CXX object CMakeFiles/cmTC_7dc53.dir/test_mpi.cpp.o
+        /usr/bin/c++  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_7dc53.dir/test_mpi.cpp.o -c /home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-HjDRv1/test_mpi.cpp
+        Linking CXX executable cmTC_7dc53
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7dc53.dir/link.txt --verbose=1
+        /usr/bin/c++ CMakeFiles/cmTC_7dc53.dir/test_mpi.cpp.o -o cmTC_7dc53  -Wl,-rpath,/usr/lib/x86_64-linux-gnu/openmpi/lib /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi_cxx.so /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi.so
+        gmake[1]: Leaving directory '/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-HjDRv1'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.29/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/usr/local/share/cmake-3.29/Modules/FindMPI.cmake:1672 (_MPI_try_staged_settings)"
+      - "CMakeLists.txt:5 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode MPICXX"
+    directories:
+      source: "/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-m1cL5Q"
+      binary: "/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-m1cL5Q"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_MPICXX"
+      cached: true
+      stdout: |
+        Change Dir: '/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-m1cL5Q'
+        
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_35a56/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_35a56.dir/build.make CMakeFiles/cmTC_35a56.dir/build
+        gmake[1]: Entering directory '/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-m1cL5Q'
+        Building CXX object CMakeFiles/cmTC_35a56.dir/test_mpi.cpp.o
+        /usr/bin/c++  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_35a56.dir/test_mpi.cpp.o -c /home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-m1cL5Q/test_mpi.cpp
+        Linking CXX executable cmTC_35a56
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_35a56.dir/link.txt --verbose=1
+        /usr/bin/c++ CMakeFiles/cmTC_35a56.dir/test_mpi.cpp.o -o cmTC_35a56  -Wl,-rpath,/usr/lib/x86_64-linux-gnu/openmpi/lib /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi_cxx.so /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi.so
+        gmake[1]: Leaving directory '/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-m1cL5Q'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.29/Modules/FindHDF5.cmake:238 (try_compile)"
+      - "/usr/local/share/cmake-3.29/Modules/FindHDF5.cmake:608 (_HDF5_test_regular_compiler_C)"
+      - "CMakeLists.txt:6 (find_package)"
+    directories:
+      source: "/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-Gqj5M1"
+      binary: "/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-Gqj5M1"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "HDF5_C_COMPILER_NO_INTERROGATE"
+      cached: true
+      stdout: |
+        Change Dir: '/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-Gqj5M1'
+        
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_a96d9/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_a96d9.dir/build.make CMakeFiles/cmTC_a96d9.dir/build
+        gmake[1]: Entering directory '/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-Gqj5M1'
+        Building C object CMakeFiles/cmTC_a96d9.dir/cmake_hdf5_test.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_a96d9.dir/cmake_hdf5_test.c.o -c /home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/hdf5/cmake_hdf5_test.c
+        Linking C executable cmTC_a96d9
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a96d9.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_a96d9.dir/cmake_hdf5_test.c.o -o cmTC_a96d9
+        /usr/bin/ld: CMakeFiles/cmTC_a96d9.dir/cmake_hdf5_test.c.o: in function `main':
+        cmake_hdf5_test.c:(.text+0x5a): undefined reference to `H5check_version'
+        /usr/bin/ld: cmake_hdf5_test.c:(.text+0x78): undefined reference to `H5Fcreate'
+        collect2: error: ld returned 1 exit status
+        gmake[1]: *** [CMakeFiles/cmTC_a96d9.dir/build.make:99: cmTC_a96d9] Error 1
+        gmake[1]: Leaving directory '/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-Gqj5M1'
+        gmake: *** [Makefile:127: cmTC_a96d9/fast] Error 2
+        
+      exitCode: 2
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.29/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/usr/local/share/cmake-3.29/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/usr/local/share/cmake-3.29/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:5 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-AcpudJ"
+      binary: "/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-AcpudJ"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-AcpudJ'
+        
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_74d99/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_74d99.dir/build.make CMakeFiles/cmTC_74d99.dir/build
+        gmake[1]: Entering directory '/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-AcpudJ'
+        Building C object CMakeFiles/cmTC_74d99.dir/test_mpi.c.o
+        /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_74d99.dir/test_mpi.c.o -c /home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-AcpudJ/test_mpi.c
+        Linking C executable cmTC_74d99
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_74d99.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_74d99.dir/test_mpi.c.o -o cmTC_74d99  -Wl,-rpath,/usr/lib/x86_64-linux-gnu/openmpi/lib /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi.so
+        gmake[1]: Leaving directory '/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-AcpudJ'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.29/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/usr/local/share/cmake-3.29/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/usr/local/share/cmake-3.29/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:5 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode normal"
+    directories:
+      source: "/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-HHi36v"
+      binary: "/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-HHi36v"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-HHi36v'
+        
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_9d911/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_9d911.dir/build.make CMakeFiles/cmTC_9d911.dir/build
+        gmake[1]: Entering directory '/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-HHi36v'
+        Building CXX object CMakeFiles/cmTC_9d911.dir/test_mpi.cpp.o
+        /usr/bin/c++  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_9d911.dir/test_mpi.cpp.o -c /home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-HHi36v/test_mpi.cpp
+        Linking CXX executable cmTC_9d911
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9d911.dir/link.txt --verbose=1
+        /usr/bin/c++ CMakeFiles/cmTC_9d911.dir/test_mpi.cpp.o -o cmTC_9d911  -Wl,-rpath,/usr/lib/x86_64-linux-gnu/openmpi/lib /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi_cxx.so /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi.so
+        gmake[1]: Leaving directory '/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-HHi36v'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.29/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/usr/local/share/cmake-3.29/Modules/FindMPI.cmake:1672 (_MPI_try_staged_settings)"
+      - "CMakeLists.txt:5 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode MPICXX"
+    directories:
+      source: "/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-ZHICvE"
+      binary: "/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-ZHICvE"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_MPICXX"
+      cached: true
+      stdout: |
+        Change Dir: '/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-ZHICvE'
+        
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_b6690/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_b6690.dir/build.make CMakeFiles/cmTC_b6690.dir/build
+        gmake[1]: Entering directory '/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-ZHICvE'
+        Building CXX object CMakeFiles/cmTC_b6690.dir/test_mpi.cpp.o
+        /usr/bin/c++  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_b6690.dir/test_mpi.cpp.o -c /home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-ZHICvE/test_mpi.cpp
+        Linking CXX executable cmTC_b6690
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b6690.dir/link.txt --verbose=1
+        /usr/bin/c++ CMakeFiles/cmTC_b6690.dir/test_mpi.cpp.o -o cmTC_b6690  -Wl,-rpath,/usr/lib/x86_64-linux-gnu/openmpi/lib /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi_cxx.so /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi.so
+        gmake[1]: Leaving directory '/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-ZHICvE'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.29/Modules/FindHDF5.cmake:238 (try_compile)"
+      - "/usr/local/share/cmake-3.29/Modules/FindHDF5.cmake:608 (_HDF5_test_regular_compiler_C)"
+      - "CMakeLists.txt:6 (find_package)"
+    directories:
+      source: "/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-RCFjiQ"
+      binary: "/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-RCFjiQ"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "HDF5_C_COMPILER_NO_INTERROGATE"
+      cached: true
+      stdout: |
+        Change Dir: '/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-RCFjiQ'
+        
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_9e335/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_9e335.dir/build.make CMakeFiles/cmTC_9e335.dir/build
+        gmake[1]: Entering directory '/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-RCFjiQ'
+        Building C object CMakeFiles/cmTC_9e335.dir/cmake_hdf5_test.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_9e335.dir/cmake_hdf5_test.c.o -c /home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/hdf5/cmake_hdf5_test.c
+        Linking C executable cmTC_9e335
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9e335.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_9e335.dir/cmake_hdf5_test.c.o -o cmTC_9e335
+        /usr/bin/ld: CMakeFiles/cmTC_9e335.dir/cmake_hdf5_test.c.o: in function `main':
+        cmake_hdf5_test.c:(.text+0x5a): undefined reference to `H5check_version'
+        /usr/bin/ld: cmake_hdf5_test.c:(.text+0x78): undefined reference to `H5Fcreate'
+        collect2: error: ld returned 1 exit status
+        gmake[1]: *** [CMakeFiles/cmTC_9e335.dir/build.make:99: cmTC_9e335] Error 1
+        gmake[1]: Leaving directory '/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-RCFjiQ'
+        gmake: *** [Makefile:127: cmTC_9e335/fast] Error 2
+        
+      exitCode: 2
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.29/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/usr/local/share/cmake-3.29/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/usr/local/share/cmake-3.29/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:5 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-FS8L78"
+      binary: "/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-FS8L78"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-FS8L78'
+        
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_e8ed1/fast
+        gmake[1]: Entering directory '/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-FS8L78'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_e8ed1.dir/build.make CMakeFiles/cmTC_e8ed1.dir/build
+        gmake[2]: Entering directory '/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-FS8L78'
+        Building C object CMakeFiles/cmTC_e8ed1.dir/test_mpi.c.o
+        /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_e8ed1.dir/test_mpi.c.o -c /home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-FS8L78/test_mpi.c
+        Linking C executable cmTC_e8ed1
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e8ed1.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_e8ed1.dir/test_mpi.c.o -o cmTC_e8ed1  -Wl,-rpath,/usr/lib/x86_64-linux-gnu/openmpi/lib /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi.so
+        gmake[2]: Leaving directory '/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-FS8L78'
+        gmake[1]: Leaving directory '/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-FS8L78'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.29/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/usr/local/share/cmake-3.29/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/usr/local/share/cmake-3.29/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:5 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode normal"
+    directories:
+      source: "/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-J0X8az"
+      binary: "/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-J0X8az"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-J0X8az'
+        
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_729ad/fast
+        gmake[1]: Entering directory '/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-J0X8az'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_729ad.dir/build.make CMakeFiles/cmTC_729ad.dir/build
+        gmake[2]: Entering directory '/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-J0X8az'
+        Building CXX object CMakeFiles/cmTC_729ad.dir/test_mpi.cpp.o
+        /usr/bin/c++  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_729ad.dir/test_mpi.cpp.o -c /home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-J0X8az/test_mpi.cpp
+        Linking CXX executable cmTC_729ad
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_729ad.dir/link.txt --verbose=1
+        /usr/bin/c++ CMakeFiles/cmTC_729ad.dir/test_mpi.cpp.o -o cmTC_729ad  -Wl,-rpath,/usr/lib/x86_64-linux-gnu/openmpi/lib /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi_cxx.so /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi.so
+        gmake[2]: Leaving directory '/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-J0X8az'
+        gmake[1]: Leaving directory '/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-J0X8az'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.29/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/usr/local/share/cmake-3.29/Modules/FindMPI.cmake:1672 (_MPI_try_staged_settings)"
+      - "CMakeLists.txt:5 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode MPICXX"
+    directories:
+      source: "/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-ARvWw4"
+      binary: "/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-ARvWw4"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_MPICXX"
+      cached: true
+      stdout: |
+        Change Dir: '/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-ARvWw4'
+        
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_3032f/fast
+        gmake[1]: Entering directory '/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-ARvWw4'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_3032f.dir/build.make CMakeFiles/cmTC_3032f.dir/build
+        gmake[2]: Entering directory '/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-ARvWw4'
+        Building CXX object CMakeFiles/cmTC_3032f.dir/test_mpi.cpp.o
+        /usr/bin/c++  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_3032f.dir/test_mpi.cpp.o -c /home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-ARvWw4/test_mpi.cpp
+        Linking CXX executable cmTC_3032f
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3032f.dir/link.txt --verbose=1
+        /usr/bin/c++ CMakeFiles/cmTC_3032f.dir/test_mpi.cpp.o -o cmTC_3032f  -Wl,-rpath,/usr/lib/x86_64-linux-gnu/openmpi/lib /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi_cxx.so /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi.so
+        gmake[2]: Leaving directory '/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-ARvWw4'
+        gmake[1]: Leaving directory '/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-ARvWw4'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.29/Modules/FindHDF5.cmake:238 (try_compile)"
+      - "/usr/local/share/cmake-3.29/Modules/FindHDF5.cmake:608 (_HDF5_test_regular_compiler_C)"
+      - "CMakeLists.txt:6 (find_package)"
+    directories:
+      source: "/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-hO9TWL"
+      binary: "/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-hO9TWL"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "HDF5_C_COMPILER_NO_INTERROGATE"
+      cached: true
+      stdout: |
+        Change Dir: '/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-hO9TWL'
+        
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_f3d7f/fast
+        gmake[1]: Entering directory '/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-hO9TWL'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_f3d7f.dir/build.make CMakeFiles/cmTC_f3d7f.dir/build
+        gmake[2]: Entering directory '/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-hO9TWL'
+        Building C object CMakeFiles/cmTC_f3d7f.dir/cmake_hdf5_test.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_f3d7f.dir/cmake_hdf5_test.c.o -c /home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/hdf5/cmake_hdf5_test.c
+        Linking C executable cmTC_f3d7f
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f3d7f.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_f3d7f.dir/cmake_hdf5_test.c.o -o cmTC_f3d7f
+        /usr/bin/ld: CMakeFiles/cmTC_f3d7f.dir/cmake_hdf5_test.c.o: in function `main':
+        cmake_hdf5_test.c:(.text+0x5a): undefined reference to `H5check_version'
+        /usr/bin/ld: cmake_hdf5_test.c:(.text+0x78): undefined reference to `H5Fcreate'
+        collect2: error: ld returned 1 exit status
+        gmake[2]: *** [CMakeFiles/cmTC_f3d7f.dir/build.make:99: cmTC_f3d7f] Error 1
+        gmake[2]: Leaving directory '/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-hO9TWL'
+        gmake[1]: *** [Makefile:127: cmTC_f3d7f/fast] Error 2
+        gmake[1]: Leaving directory '/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles/CMakeScratch/TryCompile-hO9TWL'
         
       exitCode: 2
 ...

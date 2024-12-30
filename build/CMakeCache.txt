@@ -14,6 +14,9 @@
 # EXTERNAL cache entries
 ########################
 
+//The directory containing a CMake configuration file for ADIOS2.
+ADIOS2_DIR:PATH=/opt/adios2/lib/cmake/adios2
+
 //Path to a program.
 CMAKE_ADDR2LINE:FILEPATH=/usr/bin/addr2line
 
@@ -141,6 +144,9 @@ CMAKE_OBJCOPY:FILEPATH=/usr/bin/objcopy
 //Path to a program.
 CMAKE_OBJDUMP:FILEPATH=/usr/bin/objdump
 
+//No help, variable specified on the command line.
+CMAKE_PREFIX_PATH:UNINITIALIZED=/opt/adios2
+
 //Value Computed by CMake
 CMAKE_PROJECT_DESCRIPTION:STATIC=
 
@@ -263,7 +269,7 @@ MPIEXEC_POSTFLAGS:STRING=
 MPIEXEC_PREFLAGS:STRING=
 
 //MPI CXX additional include directories
-MPI_CXX_ADDITIONAL_INCLUDE_DIRS:STRING=
+MPI_CXX_ADDITIONAL_INCLUDE_DIRS:STRING=/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi
 
 //MPI compiler for CXX
 MPI_CXX_COMPILER:FILEPATH=/usr/bin/mpicxx
@@ -290,7 +296,7 @@ MPI_CXX_LINK_FLAGS:STRING=
 MPI_CXX_SKIP_MPICXX:BOOL=OFF
 
 //MPI C additional include directories
-MPI_C_ADDITIONAL_INCLUDE_DIRS:STRING=
+MPI_C_ADDITIONAL_INCLUDE_DIRS:STRING=/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi
 
 //MPI compiler for C
 MPI_C_COMPILER:FILEPATH=/usr/bin/mpicc
@@ -486,6 +492,8 @@ CMAKE_TAPI-ADVANCED:INTERNAL=1
 CMAKE_UNAME:INTERNAL=/usr/bin/uname
 //ADVANCED property for variable: CMAKE_VERBOSE_MAKEFILE
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
+//Details about finding ADIOS2
+FIND_PACKAGE_MESSAGE_DETAILS_ADIOS2:INTERNAL=[/opt/adios2/lib/cmake/adios2/adios2-config.cmake][cfound components: C CXX MPI ][v2.10.1()]
 //Details about finding HDF5
 FIND_PACKAGE_MESSAGE_DETAILS_HDF5:INTERNAL=[/usr/lib/x86_64-linux-gnu/hdf5/openmpi/libhdf5.so;/usr/lib/x86_64-linux-gnu/libcrypto.so;/usr/lib/x86_64-linux-gnu/libcurl.so;/usr/lib/x86_64-linux-gnu/libsz.so;/usr/lib/x86_64-linux-gnu/libz.so;/usr/lib/x86_64-linux-gnu/libdl.a;/usr/lib/x86_64-linux-gnu/libm.so][cfound components: C ][v1.10.7()]
 //Details about finding MPI
