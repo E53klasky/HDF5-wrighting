@@ -48,16 +48,12 @@ int main(int argc , char** argv)
      * Initialize MPI
      */
 
-    // #if ADIOS2_USE_MPI
-    // std::cout << "Number of processes: " << mpi_size << std::endl;
-    // // maybe it works now???
-    // adios2::ADIOS adios("adios2.xml" , comm);
-    // #else
-    // adios2::ADIOS adios;
-    // #endif
-    // adios2::IO bpIO = adios.DeclareIO("WriteIO");
-    // adios2::Engine bpWriter = bpIO.Open("output" , adios2::Mode::Write);
-    // adios2::Operator op = adios.DefineOperator("mgard" , "mgard");
+
+    adios2::ADIOS adios(MPI_COMM_WORLD);
+
+    adios2::IO bpIO = adios.DeclareIO("WriteIO");
+    adios2::Engine bpWriter = bpIO.Open("output" , adios2::Mode::Write);
+    adios2::Operator op = adios.DefineOperator("mgard" , "mgard");
 
 
     /*
@@ -128,7 +124,7 @@ int main(int argc , char** argv)
     H5Pclose(plist_id);
     H5Fclose(file_id);
 
-    //bpWriter.Close();
+    bpWriter.Close();
 
     if (mpi_rank == 0)
         std::cout << "PHDF5 example finished with no errors" << std::endl;
