@@ -1,0 +1,1 @@
+/usr/bin/mpicxx  -fno-omit-frame-pointer -Wfatal-errors -Wall -Wextra -g CMakeFiles/my_program.dir/main.cpp.o -o my_program
