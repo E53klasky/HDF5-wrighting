@@ -22,14 +22,18 @@ int main(int argc , char** argv)
     hid_t   filespace , memspace; /* file and memory dataspace identifiers */
     hsize_t dimsf[2];            /* dataset dimensions */
     int* data;                /* pointer to data buffer to write */
-    std::vector<int> myVector;  /* put the data in this*/
+    std::vector<int> myVector;  /* put the data in this for bp NOT HDF5*/
     hsize_t count[2];            /* hyperslab selection parameters */
     hsize_t offset[2];
     hid_t   plist_id; /* property list identifier */
     int     i;
     herr_t  status;
 
-
+    // idk what macros are 
+    std::string fileName;
+    fileName = argv[1];
+    size_t nx = NX;
+    size_t ny = NY;
     /*
      * MPI variables
      */
@@ -54,7 +58,7 @@ int main(int argc , char** argv)
     adios2::ADIOS adios(MPI_COMM_WORLD);
 
     adios2::IO bpIO = adios.DeclareIO("WriteIO");
-    adios2::Engine bpWriter = bpIO.Open("output" , adios2::Mode::Write);
+    adios2::Engine bpWriter = bpIO.Open(fileName , adios2::Mode::Write);
     adios2::Operator op = adios.DefineOperator("mgard" , "mgard");
 
 
@@ -76,6 +80,14 @@ int main(int argc , char** argv)
          */
     dimsf[0] = NX;
     dimsf[1] = NY;
+
+    size_t local_len_x = nx / mpi_size;
+    size_t remainder = nx % mpi_size;
+    if (mpi_rank < remainder)
+    {
+        local_len_x++;
+    }
+
     filespace = H5Screate_simple(RANK , dimsf , NULL);
 
     /*
@@ -91,11 +103,19 @@ int main(int argc , char** argv)
      */
     count[0] = dimsf[0] / mpi_size;
     count[1] = dimsf[1];
-    offset[0] = mpi_rank * count[0];
+    offset[0] = mpi_rank * count[0]; // changing
     offset[1] = 0;
     memspace = H5Screate_simple(RANK , count , NULL);
-    if (mpi_rank == 0)
-        std::cout << "Count 0 is: " << count[0] << " offest for 0 is: " << offset[0] << "\n" << "Count 1 is: " << count[1] << " offest for 1 is: " << offset[1] << std::endl;
+
+    // /Software/saras/tests/ldcTest/input$ note to self
+    for (int i = 0; i < mpi_size; i++)
+    {
+        MPI_Barrier(MPI_COMM_WORLD);
+        if (mpi_rank == i)
+            std::cout << "The Rank is: " << mpi_rank << " count 0 is: " << count[0] << " offest for 0 is: " << offset[0] << "\n" << "Count 1 is: " << count[1] << " offest for 1 is: " << offset[1] << std::endl;
+
+    }
+
 
 
     /*
@@ -128,16 +148,15 @@ int main(int argc , char** argv)
     free(data);
 
     // example to make an adios var  
-    // adios2::Variable<double> yOut = bpIO.DefineVariable<double>(
-    //  name  globla size     offset     local size     
-    //   "y",   {leny},    {start_y},   {local_len_y}, adios2::ConstantDims);
-    //    puts writes it out
-    // bpWriter.Put(yOut, y.data());
+    adios2::Variable<int> dataOut = bpIO.DefineVariable<int>(
+        "data" , { nx, ny } , { offset[0], offset[1] } , { nx ,ny } , adios2::ConstantDims);
+
+    bpWriter.Put(dataOut , myVector.data());
 
 
-    /*
-     * Close/release resources.
-     */
+   /*
+    * Close/release resources.
+    */
     H5Dclose(dset_id);
     H5Sclose(filespace);
     H5Sclose(memspace);
@@ -148,6 +167,14 @@ int main(int argc , char** argv)
 
     if (mpi_rank == 0)
         std::cout << "PHDF5 example finished with no errors" << std::endl;
+
+
+    if (mpi_rank == 0)
+
+    {
+        std::cout << "I wrote file " << fileName
+            << " to disk.\n";
+    }
 
 
     MPI_Finalize();
