@@ -3,6 +3,7 @@
 #include <cstdlib>
 #include <iostream>
 #include <adios2.h>
+#include <vector> 
 
 #define H5FILE_NAME "SDS_row.h5"
 #define DATASETNAME "IntArray"
@@ -21,6 +22,7 @@ int main(int argc , char** argv)
     hid_t   filespace , memspace; /* file and memory dataspace identifiers */
     hsize_t dimsf[2];            /* dataset dimensions */
     int* data;                /* pointer to data buffer to write */
+    std::vector<int> myVector;  /* put the data in this*/
     hsize_t count[2];            /* hyperslab selection parameters */
     hsize_t offset[2];
     hid_t   plist_id; /* property list identifier */
@@ -54,6 +56,7 @@ int main(int argc , char** argv)
     adios2::IO bpIO = adios.DeclareIO("WriteIO");
     adios2::Engine bpWriter = bpIO.Open("output" , adios2::Mode::Write);
     adios2::Operator op = adios.DefineOperator("mgard" , "mgard");
+
 
 
     /*
@@ -91,6 +94,9 @@ int main(int argc , char** argv)
     offset[0] = mpi_rank * count[0];
     offset[1] = 0;
     memspace = H5Screate_simple(RANK , count , NULL);
+    if (mpi_rank == 0)
+        std::cout << "Count 0 is: " << count[0] << " offest for 0 is: " << offset[0] << "\n" << "Count 1 is: " << count[1] << " offest for 1 is: " << offset[1] << std::endl;
+
 
     /*
      * Select hyperslab in the file.
@@ -101,19 +107,33 @@ int main(int argc , char** argv)
     /*
      * Initialize data buffer
      */
+    if (mpi_rank == 0)
+        printf("The data\n");
     data = (int*)malloc(sizeof(int) * count[0] * count[1]);
     for (i = 0; i < count[0] * count[1]; i++) {
         data[i] = mpi_rank + 10;
+        myVector.push_back(mpi_rank + 10);
     }
 
-    /*
-     * Create property list for collective dataset write.
-     */
+
+
+
+  /*
+   * Create property list for collective dataset write.
+   */
     plist_id = H5Pcreate(H5P_DATASET_XFER);
     H5Pset_dxpl_mpio(plist_id , H5FD_MPIO_COLLECTIVE);
 
     status = H5Dwrite(dset_id , H5T_NATIVE_INT , memspace , filespace , plist_id , data);
     free(data);
+
+    // example to make an adios var  
+    // adios2::Variable<double> yOut = bpIO.DefineVariable<double>(
+    //  name  globla size     offset     local size     
+    //   "y",   {leny},    {start_y},   {local_len_y}, adios2::ConstantDims);
+    //    puts writes it out
+    // bpWriter.Put(yOut, y.data());
+
 
     /*
      * Close/release resources.
