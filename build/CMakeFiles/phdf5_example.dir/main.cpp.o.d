@@ -1,28 +1,36 @@
 CMakeFiles/phdf5_example.dir/main.cpp.o: \
  /home/adios/Programs/HDF5-test/HDF5-wrighting/main.cpp \
- /usr/include/stdc-predef.h \
- /usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h \
- /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
- /usr/lib/x86_64-linux-gnu/openmpi/include/mpi_portable_platform.h \
- /usr/include/hdf5/openmpi/hdf5.h /usr/include/hdf5/openmpi/H5public.h \
- /usr/include/hdf5/openmpi/H5pubconf.h \
- /usr/include/hdf5/openmpi/H5version.h /usr/include/features.h \
- /usr/include/features-time64.h \
+ /usr/include/stdc-predef.h /home/adios/local/include/mpi.h \
+ /usr/include/c++/11/cstdint \
+ /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
+ /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
+ /usr/include/features.h /usr/include/features-time64.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
  /usr/include/x86_64-linux-gnu/bits/timesize.h \
  /usr/include/x86_64-linux-gnu/sys/cdefs.h \
  /usr/include/x86_64-linux-gnu/bits/long-double.h \
  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
- /usr/include/x86_64-linux-gnu/sys/types.h \
+ /usr/include/x86_64-linux-gnu/c++/11/bits/cpu_defines.h \
+ /usr/include/c++/11/pstl/pstl_config.h \
+ /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h /usr/include/stdint.h \
+ /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/x86_64-linux-gnu/bits/types.h \
  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
  /usr/include/x86_64-linux-gnu/bits/time64.h \
+ /usr/include/x86_64-linux-gnu/bits/wchar.h \
+ /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
+ /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
+ /home/adios/local/include/mpio.h /home/adios/local/include/mpi.h \
+ /home/adios/local/include/hdf5.h /home/adios/local/include/H5public.h \
+ /home/adios/local/include/H5pubconf.h \
+ /home/adios/local/include/H5version.h \
+ /usr/include/x86_64-linux-gnu/sys/types.h \
  /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
- /usr/include/x86_64-linux-gnu/bits/stdint-intn.h /usr/include/endian.h \
+ /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h /usr/include/endian.h \
  /usr/include/x86_64-linux-gnu/bits/endian.h \
  /usr/include/x86_64-linux-gnu/bits/endianness.h \
  /usr/include/x86_64-linux-gnu/bits/byteswap.h \
@@ -41,31 +49,24 @@ CMakeFiles/phdf5_example.dir/main.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
- /usr/include/limits.h \
- /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
- /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
+ /usr/include/limits.h /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
  /usr/include/x86_64-linux-gnu/bits/local_lim.h \
  /usr/include/linux/limits.h \
  /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
  /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
  /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
- /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
+ /usr/include/x86_64-linux-gnu/bits/uio_lim.h /usr/include/inttypes.h \
+ /home/adios/local/include/H5api_adpt.h \
+ /home/adios/local/include/H5Apublic.h \
+ /home/adios/local/include/H5Ipublic.h \
+ /home/adios/local/include/H5Opublic.h \
+ /home/adios/local/include/H5Lpublic.h \
+ /home/adios/local/include/H5Tpublic.h \
+ /home/adios/local/include/H5ACpublic.h \
+ /home/adios/local/include/H5Cpublic.h \
+ /home/adios/local/include/H5Dpublic.h \
+ /home/adios/local/include/H5Epublic.h /usr/include/stdio.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
- /usr/include/inttypes.h \
- /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h /usr/include/stdint.h \
- /usr/include/x86_64-linux-gnu/bits/wchar.h \
- /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
- /usr/include/hdf5/openmpi/H5api_adpt.h \
- /usr/lib/gcc/x86_64-linux-gnu/11/include/stdbool.h \
- /usr/include/hdf5/openmpi/H5Apublic.h \
- /usr/include/hdf5/openmpi/H5Ipublic.h \
- /usr/include/hdf5/openmpi/H5Opublic.h \
- /usr/include/hdf5/openmpi/H5Lpublic.h \
- /usr/include/hdf5/openmpi/H5Tpublic.h \
- /usr/include/hdf5/openmpi/H5ACpublic.h \
- /usr/include/hdf5/openmpi/H5Cpublic.h \
- /usr/include/hdf5/openmpi/H5Dpublic.h \
- /usr/include/hdf5/openmpi/H5Epublic.h /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
@@ -76,32 +77,26 @@ CMakeFiles/phdf5_example.dir/main.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
  /usr/include/x86_64-linux-gnu/bits/floatn.h \
  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
- /usr/include/hdf5/openmpi/H5Epubgen.h \
- /usr/include/hdf5/openmpi/H5Fpublic.h \
- /usr/include/hdf5/openmpi/H5FDpublic.h \
- /usr/include/hdf5/openmpi/H5Gpublic.h \
- /usr/include/hdf5/openmpi/H5MMpublic.h \
- /usr/include/hdf5/openmpi/H5Ppublic.h \
- /usr/include/hdf5/openmpi/H5Zpublic.h \
- /usr/include/hdf5/openmpi/H5PLpublic.h \
- /usr/include/hdf5/openmpi/H5Rpublic.h \
- /usr/include/hdf5/openmpi/H5Spublic.h \
- /usr/include/hdf5/openmpi/H5FDcore.h \
- /usr/include/hdf5/openmpi/H5FDdirect.h \
- /usr/include/hdf5/openmpi/H5FDfamily.h \
- /usr/include/hdf5/openmpi/H5FDhdfs.h /usr/include/hdf5/openmpi/H5FDlog.h \
- /usr/include/hdf5/openmpi/H5FDmirror.h \
- /usr/include/hdf5/openmpi/H5FDmpi.h /usr/include/hdf5/openmpi/H5FDmpio.h \
- /usr/include/hdf5/openmpi/H5FDmulti.h \
- /usr/include/hdf5/openmpi/H5FDros3.h \
- /usr/include/hdf5/openmpi/H5FDsec2.h \
- /usr/include/hdf5/openmpi/H5FDsplitter.h \
- /usr/include/hdf5/openmpi/H5FDstdio.h /usr/include/c++/11/cstdlib \
- /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
- /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
- /usr/include/x86_64-linux-gnu/c++/11/bits/cpu_defines.h \
- /usr/include/c++/11/pstl/pstl_config.h /usr/include/stdlib.h \
- /usr/include/x86_64-linux-gnu/bits/waitflags.h \
+ /home/adios/local/include/H5Epubgen.h \
+ /home/adios/local/include/H5Fpublic.h \
+ /home/adios/local/include/H5FDpublic.h \
+ /home/adios/local/include/H5Gpublic.h \
+ /home/adios/local/include/H5MMpublic.h \
+ /home/adios/local/include/H5Ppublic.h \
+ /home/adios/local/include/H5Zpublic.h \
+ /home/adios/local/include/H5PLpublic.h \
+ /home/adios/local/include/H5Rpublic.h \
+ /home/adios/local/include/H5Spublic.h \
+ /home/adios/local/include/H5FDcore.h \
+ /home/adios/local/include/H5FDfamily.h \
+ /home/adios/local/include/H5FDlog.h /home/adios/local/include/H5FDmpi.h \
+ /home/adios/local/include/H5FDmpio.h \
+ /home/adios/local/include/H5FDmulti.h \
+ /home/adios/local/include/H5FDsec2.h \
+ /home/adios/local/include/H5FDstdio.h \
+ /home/adios/local/include/H5FDdirect.h \
+ /home/adios/local/include/H5FDmpio.h /usr/include/c++/11/cstdlib \
+ /usr/include/stdlib.h /usr/include/x86_64-linux-gnu/bits/waitflags.h \
  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
@@ -134,7 +129,7 @@ CMakeFiles/phdf5_example.dir/main.cpp.o: \
  /usr/include/c++/11/debug/assertions.h \
  /usr/include/c++/11/bits/stl_iterator.h \
  /usr/include/c++/11/bits/ptr_traits.h /usr/include/c++/11/debug/debug.h \
- /usr/include/c++/11/bits/predefined_ops.h /usr/include/c++/11/cstdint \
+ /usr/include/c++/11/bits/predefined_ops.h \
  /usr/include/c++/11/bits/localefwd.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++locale.h \
  /usr/include/c++/11/clocale /usr/include/locale.h \
@@ -193,10 +188,10 @@ CMakeFiles/phdf5_example.dir/main.cpp.o: \
  /usr/include/c++/11/bits/locale_facets.tcc \
  /usr/include/c++/11/bits/basic_ios.tcc \
  /usr/include/c++/11/bits/ostream.tcc /usr/include/c++/11/istream \
- /usr/include/c++/11/bits/istream.tcc /opt/adios2/include/adios2.h \
- /opt/adios2/include/adios2/common/ADIOSConfig.h \
- /opt/adios2/include/adios2/common/ADIOSMacros.h \
- /opt/adios2/include/adios2/common/ADIOSTypes.h \
+ /usr/include/c++/11/bits/istream.tcc /usr/local/include/adios2.h \
+ /usr/local/include/adios2/common/ADIOSConfig.h \
+ /usr/local/include/adios2/common/ADIOSMacros.h \
+ /usr/local/include/adios2/common/ADIOSTypes.h \
  /usr/include/c++/11/cstddef /usr/include/c++/11/complex \
  /usr/include/c++/11/cmath /usr/include/math.h \
  /usr/include/x86_64-linux-gnu/bits/math-vector.h \
@@ -235,10 +230,10 @@ CMakeFiles/phdf5_example.dir/main.cpp.o: \
  /usr/include/c++/11/bits/stl_vector.h \
  /usr/include/c++/11/bits/stl_bvector.h \
  /usr/include/c++/11/bits/vector.tcc \
- /opt/adios2/include/adios2/common/ADIOSConfig.h \
- /opt/adios2/include/adios2/common/ADIOSTypes.inl \
- /opt/adios2/include/adios2/common/ADIOSTypes.h \
- /opt/adios2/include/adios2/cxx11/ADIOS.h /usr/include/c++/11/functional \
+ /usr/local/include/adios2/common/ADIOSConfig.h \
+ /usr/local/include/adios2/common/ADIOSTypes.inl \
+ /usr/local/include/adios2/common/ADIOSTypes.h \
+ /usr/local/include/adios2/cxx11/ADIOS.h /usr/include/c++/11/functional \
  /usr/include/c++/11/bits/refwrap.h \
  /usr/include/c++/11/bits/std_function.h \
  /usr/include/c++/11/unordered_map /usr/include/c++/11/bits/hashtable.h \
@@ -263,25 +258,25 @@ CMakeFiles/phdf5_example.dir/main.cpp.o: \
  /usr/include/c++/11/backward/auto_ptr.h \
  /usr/include/c++/11/pstl/glue_memory_defs.h \
  /usr/include/c++/11/pstl/execution_defs.h \
- /opt/adios2/include/adios2/cxx11/IO.h \
- /opt/adios2/include/adios2/cxx11/Attribute.h \
- /opt/adios2/include/adios2/cxx11/Engine.h \
- /opt/adios2/include/adios2/cxx11/ADIOSView.h \
- /opt/adios2/include/adios2/cxx11/Types.h \
- /opt/adios2/include/adios2/cxx11/Variable.h \
- /opt/adios2/include/adios2/cxx11/Operator.h \
- /opt/adios2/include/adios2/common/ADIOSMacros.h \
- /opt/adios2/include/adios2/cxx11/VariableNT.h \
- /opt/adios2/include/adios2/cxx11/Group.h /usr/include/c++/11/set \
+ /usr/local/include/adios2/cxx11/IO.h \
+ /usr/local/include/adios2/cxx11/Attribute.h \
+ /usr/local/include/adios2/cxx11/Engine.h \
+ /usr/local/include/adios2/cxx11/ADIOSView.h \
+ /usr/local/include/adios2/cxx11/Types.h \
+ /usr/local/include/adios2/cxx11/Variable.h \
+ /usr/local/include/adios2/cxx11/Operator.h \
+ /usr/local/include/adios2/common/ADIOSMacros.h \
+ /usr/local/include/adios2/cxx11/VariableNT.h \
+ /usr/local/include/adios2/cxx11/Group.h /usr/include/c++/11/set \
  /usr/include/c++/11/bits/stl_set.h \
  /usr/include/c++/11/bits/stl_multiset.h \
- /opt/adios2/include/adios2/cxx11/ADIOS.inl \
- /opt/adios2/include/adios2/cxx11/Attribute.h \
- /opt/adios2/include/adios2/cxx11/Engine.h \
- /opt/adios2/include/adios2/cxx11/Group.h \
- /opt/adios2/include/adios2/cxx11/IO.h \
- /opt/adios2/include/adios2/cxx11/Operator.h \
- /opt/adios2/include/adios2/cxx11/Query.h \
- /opt/adios2/include/adios2/cxx11/Types.h \
- /opt/adios2/include/adios2/cxx11/Variable.h \
- /opt/adios2/include/adios2/cxx11/fstream/ADIOS2fstream.h
+ /usr/local/include/adios2/cxx11/ADIOS.inl \
+ /usr/local/include/adios2/cxx11/Attribute.h \
+ /usr/local/include/adios2/cxx11/Engine.h \
+ /usr/local/include/adios2/cxx11/Group.h \
+ /usr/local/include/adios2/cxx11/IO.h \
+ /usr/local/include/adios2/cxx11/Operator.h \
+ /usr/local/include/adios2/cxx11/Query.h \
+ /usr/local/include/adios2/cxx11/Types.h \
+ /usr/local/include/adios2/cxx11/Variable.h \
+ /usr/local/include/adios2/cxx11/fstream/ADIOS2fstream.h

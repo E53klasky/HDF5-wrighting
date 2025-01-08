@@ -6,7 +6,6 @@ find_package(MPI REQUIRED)
 find_package(HDF5 REQUIRED COMPONENTS C)
 #find_package(ADIOS2 REQUIRED PATHS /opt/adios2/ NO_DEFAULT_PATH)
 
-
 #set(ADIOS2_ROOT /opt/adios2/)
 find_package(ADIOS2 REQUIRED)
 

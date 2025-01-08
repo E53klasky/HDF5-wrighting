@@ -3,24 +3,41 @@
 
 CMakeFiles/phdf5_example.dir/main.cpp.o
  /home/adios/Programs/HDF5-test/HDF5-wrighting/main.cpp
- /opt/adios2/include/adios2.h
- /opt/adios2/include/adios2/common/ADIOSConfig.h
- /opt/adios2/include/adios2/common/ADIOSMacros.h
- /opt/adios2/include/adios2/common/ADIOSTypes.h
- /opt/adios2/include/adios2/common/ADIOSTypes.inl
- /opt/adios2/include/adios2/cxx11/ADIOS.h
- /opt/adios2/include/adios2/cxx11/ADIOS.inl
- /opt/adios2/include/adios2/cxx11/ADIOSView.h
- /opt/adios2/include/adios2/cxx11/Attribute.h
- /opt/adios2/include/adios2/cxx11/Engine.h
- /opt/adios2/include/adios2/cxx11/Group.h
- /opt/adios2/include/adios2/cxx11/IO.h
- /opt/adios2/include/adios2/cxx11/Operator.h
- /opt/adios2/include/adios2/cxx11/Query.h
- /opt/adios2/include/adios2/cxx11/Types.h
- /opt/adios2/include/adios2/cxx11/Variable.h
- /opt/adios2/include/adios2/cxx11/VariableNT.h
- /opt/adios2/include/adios2/cxx11/fstream/ADIOS2fstream.h
+ /home/adios/local/include/H5ACpublic.h
+ /home/adios/local/include/H5Apublic.h
+ /home/adios/local/include/H5Cpublic.h
+ /home/adios/local/include/H5Dpublic.h
+ /home/adios/local/include/H5Epubgen.h
+ /home/adios/local/include/H5Epublic.h
+ /home/adios/local/include/H5FDcore.h
+ /home/adios/local/include/H5FDdirect.h
+ /home/adios/local/include/H5FDfamily.h
+ /home/adios/local/include/H5FDlog.h
+ /home/adios/local/include/H5FDmpi.h
+ /home/adios/local/include/H5FDmpio.h
+ /home/adios/local/include/H5FDmulti.h
+ /home/adios/local/include/H5FDpublic.h
+ /home/adios/local/include/H5FDsec2.h
+ /home/adios/local/include/H5FDstdio.h
+ /home/adios/local/include/H5Fpublic.h
+ /home/adios/local/include/H5Gpublic.h
+ /home/adios/local/include/H5Ipublic.h
+ /home/adios/local/include/H5Lpublic.h
+ /home/adios/local/include/H5MMpublic.h
+ /home/adios/local/include/H5Opublic.h
+ /home/adios/local/include/H5PLpublic.h
+ /home/adios/local/include/H5Ppublic.h
+ /home/adios/local/include/H5Rpublic.h
+ /home/adios/local/include/H5Spublic.h
+ /home/adios/local/include/H5Tpublic.h
+ /home/adios/local/include/H5Zpublic.h
+ /home/adios/local/include/H5api_adpt.h
+ /home/adios/local/include/H5pubconf.h
+ /home/adios/local/include/H5public.h
+ /home/adios/local/include/H5version.h
+ /home/adios/local/include/hdf5.h
+ /home/adios/local/include/mpi.h
+ /home/adios/local/include/mpio.h
  /usr/include/alloca.h
  /usr/include/asm-generic/errno-base.h
  /usr/include/asm-generic/errno.h
@@ -176,43 +193,6 @@ CMakeFiles/phdf5_example.dir/main.cpp.o
  /usr/include/errno.h
  /usr/include/features-time64.h
  /usr/include/features.h
- /usr/include/hdf5/openmpi/H5ACpublic.h
- /usr/include/hdf5/openmpi/H5Apublic.h
- /usr/include/hdf5/openmpi/H5Cpublic.h
- /usr/include/hdf5/openmpi/H5Dpublic.h
- /usr/include/hdf5/openmpi/H5Epubgen.h
- /usr/include/hdf5/openmpi/H5Epublic.h
- /usr/include/hdf5/openmpi/H5FDcore.h
- /usr/include/hdf5/openmpi/H5FDdirect.h
- /usr/include/hdf5/openmpi/H5FDfamily.h
- /usr/include/hdf5/openmpi/H5FDhdfs.h
- /usr/include/hdf5/openmpi/H5FDlog.h
- /usr/include/hdf5/openmpi/H5FDmirror.h
- /usr/include/hdf5/openmpi/H5FDmpi.h
- /usr/include/hdf5/openmpi/H5FDmpio.h
- /usr/include/hdf5/openmpi/H5FDmulti.h
- /usr/include/hdf5/openmpi/H5FDpublic.h
- /usr/include/hdf5/openmpi/H5FDros3.h
- /usr/include/hdf5/openmpi/H5FDsec2.h
- /usr/include/hdf5/openmpi/H5FDsplitter.h
- /usr/include/hdf5/openmpi/H5FDstdio.h
- /usr/include/hdf5/openmpi/H5Fpublic.h
- /usr/include/hdf5/openmpi/H5Gpublic.h
- /usr/include/hdf5/openmpi/H5Ipublic.h
- /usr/include/hdf5/openmpi/H5Lpublic.h
- /usr/include/hdf5/openmpi/H5MMpublic.h
- /usr/include/hdf5/openmpi/H5Opublic.h
- /usr/include/hdf5/openmpi/H5PLpublic.h
- /usr/include/hdf5/openmpi/H5Ppublic.h
- /usr/include/hdf5/openmpi/H5Rpublic.h
- /usr/include/hdf5/openmpi/H5Spublic.h
- /usr/include/hdf5/openmpi/H5Tpublic.h
- /usr/include/hdf5/openmpi/H5Zpublic.h
- /usr/include/hdf5/openmpi/H5api_adpt.h
- /usr/include/hdf5/openmpi/H5pubconf.h
- /usr/include/hdf5/openmpi/H5public.h
- /usr/include/hdf5/openmpi/H5version.h
- /usr/include/hdf5/openmpi/hdf5.h
  /usr/include/inttypes.h
  /usr/include/limits.h
  /usr/include/linux/errno.h
@@ -322,10 +302,25 @@ CMakeFiles/phdf5_example.dir/main.cpp.o
  /usr/include/x86_64-linux-gnu/sys/types.h
  /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h
- /usr/lib/gcc/x86_64-linux-gnu/11/include/stdbool.h
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h
  /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h
- /usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h
- /usr/lib/x86_64-linux-gnu/openmpi/include/mpi_portable_platform.h
+ /usr/local/include/adios2.h
+ /usr/local/include/adios2/common/ADIOSConfig.h
+ /usr/local/include/adios2/common/ADIOSMacros.h
+ /usr/local/include/adios2/common/ADIOSTypes.h
+ /usr/local/include/adios2/common/ADIOSTypes.inl
+ /usr/local/include/adios2/cxx11/ADIOS.h
+ /usr/local/include/adios2/cxx11/ADIOS.inl
+ /usr/local/include/adios2/cxx11/ADIOSView.h
+ /usr/local/include/adios2/cxx11/Attribute.h
+ /usr/local/include/adios2/cxx11/Engine.h
+ /usr/local/include/adios2/cxx11/Group.h
+ /usr/local/include/adios2/cxx11/IO.h
+ /usr/local/include/adios2/cxx11/Operator.h
+ /usr/local/include/adios2/cxx11/Query.h
+ /usr/local/include/adios2/cxx11/Types.h
+ /usr/local/include/adios2/cxx11/Variable.h
+ /usr/local/include/adios2/cxx11/VariableNT.h
+ /usr/local/include/adios2/cxx11/fstream/ADIOS2fstream.h
 
