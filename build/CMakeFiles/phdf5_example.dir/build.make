@@ -73,15 +73,15 @@ CMakeFiles/phdf5_example.dir/main.cpp.o: CMakeFiles/phdf5_example.dir/flags.make
 CMakeFiles/phdf5_example.dir/main.cpp.o: /home/adios/Programs/HDF5-test/HDF5-wrighting/main.cpp
 CMakeFiles/phdf5_example.dir/main.cpp.o: CMakeFiles/phdf5_example.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/phdf5_example.dir/main.cpp.o"
-	/home/adios/local/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/phdf5_example.dir/main.cpp.o -MF CMakeFiles/phdf5_example.dir/main.cpp.o.d -o CMakeFiles/phdf5_example.dir/main.cpp.o -c /home/adios/Programs/HDF5-test/HDF5-wrighting/main.cpp
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/phdf5_example.dir/main.cpp.o -MF CMakeFiles/phdf5_example.dir/main.cpp.o.d -o CMakeFiles/phdf5_example.dir/main.cpp.o -c /home/adios/Programs/HDF5-test/HDF5-wrighting/main.cpp
 
 CMakeFiles/phdf5_example.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/phdf5_example.dir/main.cpp.i"
-	/home/adios/local/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/adios/Programs/HDF5-test/HDF5-wrighting/main.cpp > CMakeFiles/phdf5_example.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/adios/Programs/HDF5-test/HDF5-wrighting/main.cpp > CMakeFiles/phdf5_example.dir/main.cpp.i
 
 CMakeFiles/phdf5_example.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/phdf5_example.dir/main.cpp.s"
-	/home/adios/local/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/adios/Programs/HDF5-test/HDF5-wrighting/main.cpp -o CMakeFiles/phdf5_example.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/adios/Programs/HDF5-test/HDF5-wrighting/main.cpp -o CMakeFiles/phdf5_example.dir/main.cpp.s
 
 # Object files for target phdf5_example
 phdf5_example_OBJECTS = \
@@ -93,10 +93,11 @@ phdf5_example_EXTERNAL_OBJECTS =
 phdf5_example: CMakeFiles/phdf5_example.dir/main.cpp.o
 phdf5_example: CMakeFiles/phdf5_example.dir/build.make
 phdf5_example: /home/adios/local/lib/libhdf5.so
-phdf5_example: /usr/local/lib/libadios2_c_mpi.so.2.10.1
-phdf5_example: /usr/local/lib/libadios2_c.so.2.10.1
-phdf5_example: /usr/local/lib/libadios2_cxx11_mpi.so.2.10.1
-phdf5_example: /usr/local/lib/libadios2_cxx11.so.2.10.1
+phdf5_example: /home/adios/local/adios-install/lib/libadios2_c_mpi.so.2.10.0
+phdf5_example: /home/adios/local/adios-install/lib/libadios2_c.so.2.10.0
+phdf5_example: /home/adios/local/adios-install/lib/libadios2_cxx11_mpi.so.2.10.0
+phdf5_example: /home/adios/local/adios-install/lib/libadios2_cxx11.so.2.10.0
+phdf5_example: /home/adios/local/lib/libmpicxx.so
 phdf5_example: /home/adios/local/lib/libmpi.so
 phdf5_example: CMakeFiles/phdf5_example.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/adios/Programs/HDF5-test/HDF5-wrighting/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable phdf5_example"

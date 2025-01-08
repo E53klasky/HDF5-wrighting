@@ -33,7 +33,6 @@ int main(int argc , char** argv)
     dimsf[1] = NY;
     std::vector<int> myVector;
 
-
    /*
     * MPI variables
     */
@@ -54,17 +53,18 @@ int main(int argc , char** argv)
      * Initialize MPI
      */
 
-    // #if ADIOS2_USE_MPI
-    // std::cout << "Number of processes: " << mpi_size << std::endl;
-    // // maybe it works now???
-    // adios2::ADIOS adios("adios2.xml" , comm);
-    // #else
-    adios2::ADIOS adios;
-   // #endif
-    adios2::IO bpIO = adios.DeclareIO("WriteIO");
-    adios2::Engine bpWriter = bpIO.Open("output" , adios2::Mode::Write);
-    // adios2::Operator op = adios.DefineOperator("mgard" , "mgard");
+    if (dimsf[0] % mpi_size != 0) {
+        if (mpi_rank == 0) {
+            std::cerr << "Error: NX must be divisible by mpi_size." << std::endl;
+        }
+        MPI_Abort(comm , 1);
+    }
 
+    adios2::ADIOS adios(comm);
+
+    // ADIOS2 IO setup
+    adios2::IO bpIO = adios.DeclareIO("WriteIO");
+    adios2::Engine bpWriter = bpIO.Open("output.bp" , adios2::Mode::Write);
 
    /*
     * Set up file access property list with parallel I/O access
@@ -78,18 +78,15 @@ int main(int argc , char** argv)
     file_id = H5Fcreate(H5FILE_NAME , H5F_ACC_TRUNC , H5P_DEFAULT , plist_id);
     H5Pclose(plist_id);
 
-        /*
-         * Create the dataspace for the dataset.
-         */
-    dimsf[0] = NX;
-    dimsf[1] = NY;
+    /*
+     * Create the dataspace for the dataset.
+     */
     filespace = H5Screate_simple(RANK , dimsf , NULL);
 
     /*
      * Create the dataset with default properties and close filespace.
      */
-    dset_id =
-        H5Dcreate(file_id , DATASETNAME , H5T_NATIVE_INT , filespace , H5P_DEFAULT , H5P_DEFAULT , H5P_DEFAULT);
+    dset_id = H5Dcreate(file_id , DATASETNAME , H5T_NATIVE_INT , filespace , H5P_DEFAULT , H5P_DEFAULT , H5P_DEFAULT);
     H5Sclose(filespace);
 
     /*
@@ -105,7 +102,6 @@ int main(int argc , char** argv)
     if (mpi_rank == 0)
         std::cout << "Count 0 is: " << count[0] << " offest for 0 is: " << offset[0] << "\n" << "Count 1 is: " << count[1] << " offest for 1 is: " << offset[1] << std::endl;
 
-
     /*
      * Select hyperslab in the file.
      */
@@ -116,7 +112,7 @@ int main(int argc , char** argv)
      * Initialize data buffer
      */
     data = (int*)malloc(sizeof(int) * count[0] * count[1]);
-    for (i = 0; i < count[0] * count[1]; i++) {
+    for (int i = 0; i < count[0] * count[1]; i++) {
         data[i] = mpi_rank + 10;
         myVector.push_back(mpi_rank + 10);
     }
@@ -130,30 +126,24 @@ int main(int argc , char** argv)
     status = H5Dwrite(dset_id , H5T_NATIVE_INT , memspace , filespace , plist_id , data);
     free(data);
 
-
+    // ADIOS2 data write
     adios2::Variable<int> adiosVar = bpIO.DefineVariable<int>(
-        "data" , { dimsf[0], dimsf[1] } , { offset[0], offset[1] } , { count[0], count[1] });
-
-
-           // adios2::Variable<double> yOut = bpIO.DefineVariable<double>(
-          //  name  globla size     offset     local size     
-          //   "y",   {leny},    {start_y},   {local_len_y}, adios2::ConstantDims);
-          /*
-           * Close/release resources.
-           */
+        "DATA" , { dimsf[0], dimsf[1] } , { offset[0], offset[1] } , { count[0], count[1] });
 
     bpWriter.Put(adiosVar , myVector.data() , adios2::Mode::Sync);
+
+    // Clean up resources
     H5Dclose(dset_id);
     H5Sclose(filespace);
     H5Sclose(memspace);
     H5Pclose(plist_id);
     H5Fclose(file_id);
 
+    // Close ADIOS2 writer
     bpWriter.Close();
 
     if (mpi_rank == 0)
         std::cout << "PHDF5 example finished with no errors" << std::endl;
-
 
     MPI_Finalize();
 
